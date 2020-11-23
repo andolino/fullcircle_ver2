@@ -8950,11 +8950,10 @@ header {
 
 .hero .hero-slide .header-content {
   top: 40%;
-  margin-left: 8rem;
-  max-width: 550px;
-  width: 100%;
   padding: 2rem;
-  
+  margin: auto !important;
+  width: 100%;
+  text-align: center;
 }
 
 .bg-label{
@@ -9088,5 +9087,12 @@ header {
   color: #f0f0f0 !important;
 }
 
+.font-20{
+  font-size: 50px;
+}
 
-
+.bg-label {
+  width: 34%;
+  margin: auto;
+  padding: 12px;
+}

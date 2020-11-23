@@ -162,8 +162,10 @@
 
           <div class="hero-slide vh-100">
             <img alt="Mars Image" class="img-responsive cover" src="<?php echo base_url('assets/image/slider/photo1.jpg'); ?>">
-            <div class="header-content text-light position-absolute slide-content col-lg-4">
-              <h1 class="mb-4 text-light">Watch Your Event’s <span class="d-block font-weight-bold">Success</span></h1>
+            <div class="header-content text-light position-absolute slide-content col-lg-12">
+              <div class="bg-label">
+                <h1 class="mb-4 text-light">Watch Your <br> Event’s <span style="color:#e199ce;">Success</span> <br> Unfold</h1>
+              </div>
               <a class="btn btn-baby-pink btn-lg mt-2 page-scroll" href="#contact-us" tabindex="0">Lets Make it Happen!</a>
             </div>
           </div>
@@ -171,29 +173,38 @@
 
           <div class="hero-slide vh-100">
             <img alt="Mars Image" class="img-responsive cover" src="<?php echo base_url('assets/image/slider/photo2.jpg'); ?>">
-            <div class="header-content bg-label text-light position-absolute slide-content col-lg-4">
-              <h1 class="mb-4 text-light">LunarXP Voted Best Mars Mission</h1>
-              <p class="font-weight-bold">Inc. magazine today ranked LunarXP as the fastest growing company in the Mars Mission category.</p>
-              <a class="btn btn-baby-pink btn-lg w-max mt-2" href="#" tabindex="0">Read More</a>
+            <div class="header-content text-light position-absolute slide-content col-lg-12">
+              <div class="bg-label">
+                <h1 class="mb-4 text-light">More than an Event.. It's an Experience</h1>
+                <!-- <p class="font-weight-bold">Inc. magazine today ranked LunarXP as the fastest growing company in the Mars Mission category.</p> -->
+              </div>
+              <a class="btn btn-baby-pink btn-lg w-max mt-2 page-scroll" href="#contact-us" tabindex="0">Featured Events</a>
+
             </div>
           </div>
           <!--.hero-slide-->
 
           <div class="hero-slide vh-100">
             <img alt="Mars Image" class="img-responsive cover" src="<?php echo base_url('assets/image/slider/photo3.jpg'); ?>">
-            <div class="header-content bg-label text-light position-absolute slide-content col-lg-4">
-              <p>Our fleet of advanced spacecraft have revolutionized the lunar economy and provided safe travel for thousands of scientists, engineers, technicians, medical staff and civilians. These amazing vessels are also paving the way for reaching Mars in the next decade.</p>
-              <a class="btn btn-baby-pink btn-lg w-max mt-2" href="#" tabindex="0">Read More</a>
+            <div class="header-content text-light position-absolute slide-content col-lg-12">
+              <div class="bg-label">
+                <h1 class="mb-4 text-light">We Make it <br> Happen!</h1>
+                <!-- <p>Our fleet of advanced spacecraft have revolutionized the lunar economy and provided safe travel for thousands of scientists, engineers, technicians, medical staff and civilians. These amazing vessels are also paving the way for reaching Mars in the next decade.</p> -->
+              </div>
+              <a class="btn btn-baby-pink btn-lg w-max mt-2 page-scroll" href="#services" tabindex="0">Our Services</a>
+
             </div>
           </div>
 
-          <div class="hero-slide vh-100">
-            <img alt="Mars Image" class="img-responsive cover" src="<?php echo base_url('assets/image/slider/photo4.jpg'); ?>">
-            <div class="header-content bg-label text-light position-absolute slide-content col-lg-4">
-              <p>Our fleet of advanced spacecraft have revolutionized the lunar economy and provided safe travel for thousands of scientists, engineers, technicians, medical staff and civilians. These amazing vessels are also paving the way for reaching Mars in the next decade.</p>
+          <!-- <div class="hero-slide vh-100">
+            <img alt="Mars Image" class="img-responsive cover" src="<?php //echo base_url('assets/image/slider/photo4.jpg'); ?>">
+            <div class="header-content text-light position-absolute slide-content col-lg-12">
+              <div class="bg-label">
+                <p>Our fleet of advanced spacecraft have revolutionized the lunar economy and provided safe travel for thousands of scientists, engineers, technicians, medical staff and civilians. These amazing vessels are also paving the way for reaching Mars in the next decade.</p>
+              </div>
               <a class="btn btn-baby-pink btn-lg w-max mt-2" href="#" tabindex="0">Read More</a>
             </div>
-          </div>
+          </div> -->
         </div>
         <!--.hero-->
       </header>
@@ -208,22 +219,36 @@
       <section class="bg-master-lightest p-b-85 p-t-75" id="services">
         <div class="container">
           <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-            <h5 class="block-title hint-text no-margin text-center">Discover</h5>
             <div class="row">
               <div class="col-sm-5 col-md-12">
-                <h1 class="m-t-5 text-center">Network & I.T<br> Solutions designed<br> for you.</h1>
+                <h1 class="m-t-5 text-center">Who We Are</h1>
               </div>
-              <!-- <div class="col-sm-7 col-md-7 no-padding xs-p-l-15 xs-p-r-15"> -->
-                <!-- <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15"> -->
-                <!-- <p>Techturf Inc. is an internet and information technology solutions provider. </p>  
-                <p>Techturf Inc. provides connectivity, communications, automation, digitalization, virtual or actual and physical. It is where solutions are made easy. </p>
-                <p>Techturf Inc. is a consolidated expansion of Zippylet IT Services’ growing market demand for red-hot network setups in both corporate and government offices. </p>
-                <p>Techturf is one of the few technology business aggregators in the country that creates a simple yet trendy take on technology worldwide</p> -->
-                  <!-- <p class="hint-text font-arial small-text col-md-9 no-padding">Techturf is a spin-off from its mother company, Zippylet IT Services’ growing market demand for red-hot network setups in both Private and Public Offices.</p>
-                  <p class="hint-text font-arial small-text col-md-9 no-padding">Techturf is commissioned to be a blue chip company, as a technology business aggregator, which creates a simple yet trendy take on technology worldwide.</p> -->
-                <!-- </div> -->
-              <!-- </div> -->
+              <div class="col-sm-6 col-md-6 col-lg-7 no-padding xs-p-l-15 xs-p-r-15 text-align-justify">
+                <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
+                  <p>Established in 2008, <strong>Full Circle Events Asia, Inc.</strong> is now one of the Philippines leading, most respected and top of mind Event and Marketing
+                  agencies chosen by Global IT giants as well as other Industries.</p>  
+                  <p><strong>A full-service Event Management and Marketing Communications Company,</strong> with 12 Years in the Industry, the company has organized
+                  over 800 wide variety of Events and Campaigns that range from simple seminars, CEO breakfasts and Lunches to National Conferences,
+                  Summits, Tech Expo, Caravans, Product Launches, Lead Generation Campaigns, Company Launches. Formal Dinners, Mall Tours, School
+                  Tours, Private functions and Destination or Out-of-Town Events.</p>  
+                  <p>And with the Team’s almost 35 years of combined experience in Event Management and Marketing Communications, Full Circle Events Asia
+                  can make any event and campaign flow smoothly by providing extensive support — from <strong>Planning, Consulting Execution and extensive
+                  Post Event Reporting, Lead qualifications, Lead capture and management to other special management services.</strong></p>
+                  <p>While its wide network of Partner Suppliers and established affiliates – be it in public relations, graphics design and printing, staging and
+                  production and corporate giveaways — can provide clients with a wide range of reasonable packages to choose from.</p>
+                  <p><strong>Supported by a team of enthusiastic and highly skilled team members</strong> with impressive and collective industry skills and experience, you
+                  can take the front seat and watch your event’s success unfold.</p>
+                </div>
+              </div>
+
             </div>
+            <!-- <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center">
+                  <h5 class="block-title m-t-40 hint-text m-b-0">Follow your Heart</h5>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -234,21 +259,50 @@
       <section class="p-b-85 p-t-75 p-b-65 p-t-55">
         <div class="container">
         <div class="md-p-l-20 xs-no-padding clearfix">
+          <div class="col-sm-12 col-md-12">
+            <h1 class="m-t-5 text-center">Our Services</h1>
+            <h5 class="block-title mb-5 hint-text text-center"><strong>Full Circle Events Asia, Inc.</strong> is confident that your needs in Events Management
+              will be effectively addressed by availing our services.</h5>
+          </div>
+            
           <div class="col-sm-4 no-padding">
             <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="<?php echo base_url(); ?>assets/tech/assets/images/internet.svg">
-              <h6 class="block-title p-b-5">Internet <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Techturf delivers the latest cost-effective private and public wide area high speed data networks. Enjoy international and domestic Leased Lines just for you</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Multiple routes to guarantee the optimum speed. You'll always be online</p>
+              <h6 class="block-title p-b-5">Marketing Communications Services </h6>
+              <p class="m-b-30">Let’s thrive in the New Normal!</p>
+              <!-- <p class="muted font-arial small-text col-sm-9 no-padding">Multiple routes to guarantee the optimum speed. You'll always be online</p> -->
+              <ul>
+                <li>Webinar and Virtual Events Management</li>
+                <li>Webinar Platform Integration and Live Streaming and other Technical</li>
+                <li>Social Media Management and Ads Design</li>
+                <li>Demand Generation</li>
+                <li>Leads Generation</li>
+                <li>Database Profiling and Telemarketing</li>
+                <li>Virtual Events Attendance Generation</li>
+                <li>E-gifts and other Simultaneous Logistics Services</li>
+              </ul>
             </div>
             <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
           </div>
           <div class="col-sm-4 no-padding">
             <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="<?php echo base_url(); ?>assets/tech/assets/images/cloud.svg">
-              <h6 class="block-title p-b-5">Cloud <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">Comprehensive, locally delivered private and public cloud hosted server options to meet your growing needs and daily business operations.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Get content fast from servers within your region. Available & Reliable at all times.</p>
+              <h6 class="block-title p-b-5">Full Event Management (In-Person/Live Events) <i class="pg-arrow_right m-l-10"></i></h6>
+              <p class="m-b-30">Planning, Consulting and Execution to Post – event Reporting</p>
+              <p class="muted font-arial small-text col-sm-9">
+              <strong>Pre-Event Services</strong>
+              <p>Hotel & venue site selection <br>
+              Contract negotiation: artists, talent, suppliers <br>
+              Script, design & direct all aspects of business sessions <br>
+              Management of invitation process – Attendance Generation & Telemarketing</p>
+              <strong>On-Site Event Services</strong>
+              <p>Event Day Management & Supervision <br>
+              Registration & accommodation management <br>
+              Food & beverage management <br>
+              Staff management, Production Coordination,</p>
+              <strong>Post Event Services</strong>
+              <p>– Evaluation <br>
+              – Comprehensive reporting</p>
+              <p>We also handle other special services that may not involve complete management</p>
+              </p>
             </div>
             <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
           </div>
@@ -424,23 +478,31 @@
       
       <section class="container container-fixed-lg p-t-65 p-b-100  sm-p-b-30 sm-m-b-30 custom-section" id="contact-us" style="height:auto;">
         <div class="row">
-          <div class="col-sm-5 col-md-12 m-b-20">
-            <h1 class="m-t-5 text-center">Get in touch</h1>
+          <div class="col-sm-5 col-md-6 m-b-20">
+            <h1 class="m-t-5 pl-0">Reach Us</h1>
           </div>
+          <div class="col-md-12 p-0"></div>
           <div class="col-md-6">
+          
             <!-- <h1>Get in Touch</h1> -->
             <div class="p-r-40 sm-p-r-0">
-              <p>We care and we'd like to hear from you. How may we assist you? 
-              Fill up this form to contact us if you have any futher questions.</p>
-
-          
+              <p class="pb-2">Have any Questions?</p>
+              <div class="row pb-3">
+                <div class="col-sm-3">
+                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Hotline </p>
+                  <p class="hint-text no-margin fs-14">+63919 0059 768</p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Email Us </p>
+                  <p class="hint-text no-margin fs-14"><a href = "mailto: sales@techturf.com.ph"><i class="fa fa-envelope" aria-hidden="true"></i> events@</a></p>
+                </div>
+                <!-- <div class="col-sm-6">
+                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Email </p>
+                  <p class="hint-text no-margin fs-14">info@techturf.com.ph</p>
+                </div> -->
+              </div>
               <div class="panel" id="contact-panel">
-              
-              
-              	
-                <!--<p class="semi-bold no-margin">Fill up this form to contact us if you have any futher questions</p>-->
-                
-                
+                <!--<p class="semi-bold no-margin">Fill up this form to contact us if you have any futher questions</p>--> 
                 <!-- action="_lib/mail.php" -->
                 <form role="form" autocomplete="off" class="m-t-15" id="contact-form" method="post" action="<?php echo base_url() . 'submit-contact'; ?>">
                   <div class="row">
@@ -457,9 +519,19 @@
                       </div>
                     </div>
                   </div>
-                  <div class="form-group form-group-default">
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="" class="form-control" required>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group form-group-default">
+                        <label>Company</label>
+                        <input type="text" name="last-name" class="form-control" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group form-group-default">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="" class="form-control" required>
+                      </div>
+                    </div>
                   </div>
                   <div class="form-group form-group-default">
                     <label>Message</label>
@@ -489,24 +561,12 @@
                   <!-- <p class="hint-text no-margin"><span class="fs-12 font-montserrat bold all-caps p-r-10">Tel</span> <span class="fs-14">+02 7 6183388</span></p> -->
                   <!-- <p class="hint-text"><span class="fs-12 font-montserrat bold all-caps p-r-10">Mob</span> <span class="fs-14">+63 917 826 4474</span></p> -->
                 <!-- </div> -->
+
               </div>
-              <br>
+              <!-- <br>
               <h5 class="block-title hint-text m-b-0">Techturfs Public Inquiries &amp; Communications </h5>
-              <br>
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Hotline </p>
-                  <p class="hint-text no-margin fs-14">+02 7 6183388</p>
-                </div>
-                <div class="col-sm-6">
-                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Email Us </p>
-                  <p class="hint-text no-margin fs-14"><a href = "mailto: sales@techturf.com.ph"><i class="fa fa-envelope" aria-hidden="true"></i> sales@techturf.com.ph</a></p>
-                </div>
-                <!-- <div class="col-sm-6">
-                  <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Email </p>
-                  <p class="hint-text no-margin fs-14">info@techturf.com.ph</p>
-                </div> -->
-              </div>
+              <br> -->
+              
             </div>
           </div>
         </div>
