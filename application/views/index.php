@@ -351,7 +351,7 @@
     <section class="p-b-100 p-t-30">
       <div class="container-sm-height">
         <div class="row row-sm-height sm-m-l-15 sm-m-r-15">
-          <div class="col-lg-2 col-md-1 hidden-sm"></div>
+          <!-- <div class="col-lg-2 col-md-1 hidden-sm"></div> -->
           <div class="col-sm-6 col-lg-4 col-md-5 col-sm-height col-middle sm-text-center">
             <img class="m-t-10 xs-image-responsive-height sm-no-padding lazy" src="<?php echo base_url(); ?>assets/tech/assets/images/ipad_2.png" alt="">
           </div>
@@ -368,7 +368,7 @@
             <p class="m-t-15">We make sure that we are always available 24/7 to handle any issue you might or have encountered. Client satisfaction is a guaranteed priority.</p>
            
           </div>
-          <div class="col-lg-2 col-md-1 hidden-sm"></div>
+          <!-- <div class="col-lg-2 col-md-1 hidden-sm"></div> -->
         </div>
       </div>
     </section>
@@ -388,7 +388,7 @@
               <div class="col-xs-height col-middle">
                 <div class="container">
                   <div class="row">
-                    <div class="col-sm-12 col-sm-offset-1">
+                    <div class="col-sm-12">
                       <h6 class="block-title m-b-0 text-menu hint-text ">Our First Date</h6>
                       <h1 class="m-t-5 text-fuchiapink">See what we're<br>all about.</h1>
                       <p class="m-t-30 text-menu">Techturf Inc. is an internet and information technology solutions provider. </p>  
