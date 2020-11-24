@@ -304,6 +304,8 @@
               <p>We also handle other special services that may not involve complete management</p>
               </p>
             </div>
+
+            
             <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
           </div>
           <div class="col-sm-4 no-padding">
