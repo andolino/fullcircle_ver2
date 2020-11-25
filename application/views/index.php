@@ -37,6 +37,7 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/fontawesome-free-5.0.9/web-fonts-with-css/css/fa-brands.css'); ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/fontawesome-free-5.0.9/web-fonts-with-css/css/fa-regular.css'); ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/ekko-lightbox/ekko-lightbox.css'); ?>">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     i {
       font-style: normal !important;
@@ -256,20 +257,93 @@
       
       
       <!-- BEGIN MAIN CONTENT SECTION -->
-      <section class="p-b-85 p-t-75 p-b-65 p-t-55">
+      <section class="p-b-85 p-t-75 p-b-65 p-t-55" style="background-image: url('assets/image/bg2.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
         <div class="container">
         <div class="md-p-l-20 xs-no-padding clearfix">
+
+
+
           <div class="col-sm-12 col-md-12">
             <h1 class="m-t-5 text-center">Our Services</h1>
             <h5 class="block-title mb-5 hint-text text-center"><strong>Full Circle Events Asia, Inc.</strong> is confident that your needs in Events Management
               will be effectively addressed by availing our services.</h5>
           </div>
+
+          <!-- <div class="row"> -->
+            <div class="col-lg-12">
+              <div class="card-deck">
+                <div class="card" data-aos="fade-right">
+                  <img src="<?php echo base_url('assets/image/our_services/pic1.png'); ?>" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Marketing Communications Services </h5>
+                    <h6 class="card-title text-center">Let’s thrive in the New Normal! </h6>
+                    <ul class="pl-3">
+                      <li>Webinar and Virtual Events Management</li>
+                      <li>Webinar Platform Integration and Live Streaming and other Technical</li>
+                      <li>Social Media Management and Ads Design</li>
+                      <li>Demand Generation</li>
+                      <li>Leads Generation</li>
+                      <li>Database Profiling and Telemarketing</li>
+                      <li>Virtual Events Attendance Generation</li>
+                      <li>E-gifts and other Simultaneous Logistics Services</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card" data-aos="fade-up">
+                  <img src="<?php echo base_url('assets/image/our_services/pic2.jpg'); ?>" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Full Event Management (In-Person/Live Events)</h5>
+                    <h6 class="card-title text-center">Planning, Consulting and Execution to Post – event Reporting</h6>
+                    <label>Pre-Event Services</label>
+                    <ul class="pl-3">
+                      <li>Hotel & venue site selection</li>
+                      <li>Contract negotiation: artists, talent, suppliers</li>
+                      <li>Script, design & direct all aspects of business sessions</li>
+                      <li>Management of invitation process – Attendance Generation & Telemarketing</li>
+                    </ul>
+                    <label>On-Site Event Services</label>
+                    <ul class="pl-3">
+                      <li>Event Day Management & Supervision</li>
+                      <li>Registration & accommodation management</li>
+                      <li>Food & beverage management</li>
+                      <li>Staff management, Production Coordination</li>
+                    </ul>
+                    <label>Post Event Services</label>
+                    <ul class="pl-1 list-unstyled">
+                      <li>– Evaluation</li>
+                      <li>– Comprehensive reporting</li>
+                    </ul>
+                    <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                    <p class="card-text"><small class="text-muted">We also handle other special services that may not involve complete management</small></p>
+                  </div>
+                </div>
+                <div class="card" data-aos="fade-left">
+                  <img src="<?php echo base_url('assets/image/our_services/pic3.png'); ?>" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Other Special/ Partial Services</h5>
+                    <h6 class="card-title text-center">(In-person/Live Events)</h6>
+                    <ul class="pl-3">
+                      <li>Event day Management</li>
+                      <li>Attendance Generation Management</li>
+                      <li>Sponsorship Management</li>
+                      <li>Registration & accommodation Management</li>
+                      <li>Booth set-up and Management</li>
+                      <li>Ingress & Egress Management</li>
+                      <li>Transportation and Accommodation Management</li>
+                      <li>Corporate Giveaways</li>
+                      <li>Distribution of gifts to Client’s Customers</li>
+                    </ul>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- </div> -->
             
-          <div class="col-sm-4 no-padding">
+          <!-- <div class="col-sm-4 no-padding">
             <div class="p-r-40 md-pr-30">
               <h6 class="block-title p-b-5">Marketing Communications Services </h6>
               <p class="m-b-30">Let’s thrive in the New Normal!</p>
-              <!-- <p class="muted font-arial small-text col-sm-9 no-padding">Multiple routes to guarantee the optimum speed. You'll always be online</p> -->
               <ul>
                 <li>Webinar and Virtual Events Management</li>
                 <li>Webinar Platform Integration and Live Streaming and other Technical</li>
@@ -285,37 +359,146 @@
           </div>
           <div class="col-sm-4 no-padding">
             <div class="p-r-40 md-pr-30">
-              <h6 class="block-title p-b-5">Full Event Management (In-Person/Live Events) <i class="pg-arrow_right m-l-10"></i></h6>
+              <h6 class="block-title p-b-5">Full Event Management (In-Person/Live Events)</h6>
               <p class="m-b-30">Planning, Consulting and Execution to Post – event Reporting</p>
-              <p class="muted font-arial small-text col-sm-9">
-              <strong>Pre-Event Services</strong>
-              <p>Hotel & venue site selection <br>
-              Contract negotiation: artists, talent, suppliers <br>
-              Script, design & direct all aspects of business sessions <br>
-              Management of invitation process – Attendance Generation & Telemarketing</p>
-              <strong>On-Site Event Services</strong>
-              <p>Event Day Management & Supervision <br>
-              Registration & accommodation management <br>
-              Food & beverage management <br>
-              Staff management, Production Coordination,</p>
-              <strong>Post Event Services</strong>
-              <p>– Evaluation <br>
-              – Comprehensive reporting</p>
+              <label>Pre-Event Services</label>
+              <ul>
+                <li>Hotel & venue site selection</li>
+                <li>Contract negotiation: artists, talent, suppliers</li>
+                <li>Script, design & direct all aspects of business sessions</li>
+                <li>Management of invitation process – Attendance Generation & Telemarketing</li>
+              </ul>
+              <label>On-Site Event Services</label>
+              <ul>
+                <li>Event Day Management & Supervision</li>
+                <li>Registration & accommodation management</li>
+                <li>Food & beverage management</li>
+                <li>Staff management, Production Coordination</li>
+              </ul>
+              <label>Post Event Services</label>
+              <ul>
+                <li>– Evaluation</li>
+                <li>– Comprehensive reporting</li>
+              </ul>
               <p>We also handle other special services that may not involve complete management</p>
               </p>
             </div>
-
-            
             <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
           </div>
           <div class="col-sm-4 no-padding">
             <div class="p-r-40 md-pr-30">
-              <img alt="" class="m-b-20" src="<?php echo base_url(); ?>assets/tech/assets/images/voice.svg">
-              <h6 class="block-title p-b-5">Voice <i class="pg-arrow_right m-l-10"></i></h6>
-              <p class="m-b-30">A whole new way to do voice infrastructure, computer integration and collaboration systems. Telephony services from SME's to large enterprises.</p>
-              <p class="muted font-arial small-text col-sm-9 no-padding">Friendly & competitive rates to support your global & local call center needs.</p>
+              <h6 class="block-title p-b-5">Other Special/ Partial Services</h6>
+              <label class="m-b-30">(In-person/Live Events)</label> <br>
+                <ul>
+                  <li>Event day Management</li>
+                  <li>Attendance Generation Management</li>
+                  <li>Sponsorship Management</li>
+                  <li>Registration & accommodation Management</li>
+                  <li>Booth set-up and Management</li>
+                  <li>Ingress & Egress Management</li>
+                  <li>Transportation and Accommodation Management</li>
+                  <li>Corporate Giveaways</li>
+                  <li>Distribution of gifts to Client’s Customers</li>
+                </ul>
+            </div>
+          </div> -->
+
+
+
+
+        </div>
+        </div>
+      </section>
+      <!-- END  MAIN CONTENT SECTION -->
+
+
+
+      <!-- BEGIN MAIN CONTENT SECTION -->
+      <section class="p-b-85 p-t-75 p-b-65 p-t-55">
+        <div class="container">
+        <div class="md-p-l-20 xs-no-padding clearfix">
+
+
+
+          <div class="col-sm-12 col-md-12">
+            <h1 class="m-t-5 text-center">Our Clients</h1>
+            <h5 class="block-title hint-text text-justify">For only three years after its inception (12 Years now), Full Circle has established a niche in the Information Technology and the Corporate Industry and has
+            become one of the top of mind events agencies that cater not only to the IT but also in other fields.</h5>
+            <h5 class="block-title hint-text text-justify">The company has gained its Clients’ trusts in terms of quality service and financial capability since then. Not to mention, the Company is run by well
+            experienced and notable event organizers.</h5>
+            <h5 class="block-title mb-5 hint-text text-justify">We also carried over our Clients from previous company that we have worked with which only proves that these Clients have full trust and confidence in our
+            Team’s service and dedication.</h5>
+            <h5 class="block-title p-b-5 text-center head-text-diy">Here are those who Trust us over the Years!</h5>
+            <div class="row mb-5">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/cisco.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/CTI.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/DellTechnologies.jpg'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/FireEye_logo.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/Fujitsu.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-1"></div>
+            </div>
+            <div class="row pb-5">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/infor_logo.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/palo_alto.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/SAPLOGO.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/usap_no_tag.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/vmware.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-1"></div>
+            </div>
+            <h5 class="block-title p-b-5 text-center head-text-diy">Our Clients from the Other Industries</h5>
+            <div class="row mb-5">
+              <div class="offset-lg-2 col-lg-2"><img src="<?php echo base_url('assets/image/clients/delmonte.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/intelligencecorp.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/kisa2.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/kcc.png'); ?>" class="img-thumbnail" alt=""></div>
+            </div>
+            <div class="row mb-5">
+              <div class="offset-lg-2 col-lg-2"><img src="<?php echo base_url('assets/image/clients/marist.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/phil_dev.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/pnp.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/karaicon.png'); ?>" class="img-thumbnail" alt=""></div>
+            </div>
+            <h5 class="block-title p-b-5 text-center head-text-diy">The Other Clients that we have served</h5>
+            <div class="row mb-5">
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/amti.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/ags.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/CTI.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/creative_tech.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/checkpoint.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/datacraft.png'); ?>" class="img-thumbnail" alt=""></div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/fritz_and_macziol.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/incontact.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/first_data.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/jump.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/lamco.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/lenovo.png'); ?>" class="img-thumbnail" alt=""></div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/macrologic.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/microimage.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/nec.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/ngkhai.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/questronix.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/riverbed.png'); ?>" class="img-thumbnail" alt=""></div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/rightcomp.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/SSi.png'); ?>" class="img-thumbnail" alt=""></div>
+              <div class="col-lg-2"><img src="<?php echo base_url('assets/image/clients/zenshin.png'); ?>" class="img-thumbnail" alt=""></div>
             </div>
           </div>
+
+          <!-- <div class="row"> -->
+            <div class="col-lg-12">
+            </div>
+          <!-- </div> -->
+            
+        
+
         </div>
         </div>
       </section>
@@ -741,8 +924,11 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/tech/assets/js/google_map.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/app.js?random=<?php echo mt_rand(); ?>"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-				
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>.
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       $(document).ready(function () {
         $('.hero').slick({

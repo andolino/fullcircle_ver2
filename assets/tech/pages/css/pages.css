@@ -9098,3 +9098,21 @@ header {
   margin: auto;
   padding: 12px;
 }
+
+.card.aos-init.aos-animate {
+  box-shadow: -12px 13px 0 #ef9bbd;
+  border-radius: 0;
+}
+
+
+.head-text-diy {
+  background: #b44a98;
+  color: #f0f0f0;
+  padding: 7px;
+      padding-bottom: 7px;
+  width: 44%;
+  margin: auto;
+      margin-bottom: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
