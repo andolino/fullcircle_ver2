@@ -267,11 +267,11 @@
               </div>
               <div class="col-sm-6 col-md-6 col-lg-12 no-padding xs-p-l-15 xs-p-r-15 text-align-justify">
                 <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
-                  <div class="row">
+                  <div class="row mb-5">
                     <div class="col-lg-2" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/anna_solis_crespo.jpg'); ?>" alt="" class="img-thumbnail">
                     </div>
-                    <div class="col-lg-10" data-aos="fade-up-left">
+                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
                       <label for="" class="font-weight-bold" style="font-size:18px;">Anna Solis-Crespo</label> <br>
                       <label for="" class="block-title font-12">Founder CEO</label>
                       <p>22 Years in the Industry, with a track record of over 1,500 events, Anna Solis-Crespo boasts of
@@ -281,9 +281,80 @@
                       skills and a keen eye for details and Event implementation.</p>
                     </div>
                   </div>
+                  <div class="row mb-5">
+                    <div class="col-lg-10 lbl-team-info-boy" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">David Crespo</label> <br>
+                      <label for="" class="block-title font-12">Chief Finance Officer</label>
+                        <p>As the Full Circle’s CFO, David’s main responsibility is to safeguard the Company’s Financial growth
+                        and assets. His keen sense for Finance and sound recommendations has helped Full Circle grow over
+                        the years through sound financial allocation and recommendations, and ensuring compliance to the
+                        annual and monthly budgets.</p>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/david_crepo.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                  </div>
+                  <div class="row mb-5">
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/maileen_crespo.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">Maileen Crespo</label> <br>
+                      <label for="" class="block-title font-12">Consultant</label>
+                      <p>Maileen Crespo is considered a pioneer of one of the leading Event Management companies in
+                      the IT industry.</p>
+                      <p>With almost 22 years of experience in organizing Events, she is gifted with a natural ebullience
+                      and savvy for Public Relations, relationship building and communications.</p>
+                    </div>
+                  </div>
+                  <div class="row mb-5">
+                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">Maria Donneza Solis</label> <br>
+                      <label for="" class="block-title font-12">Project Manager</label>
+                      <p>Maileen Crespo is considered a pioneer of one of the leading Event Management companies in
+                      the IT industry.</p>
+                      <p>Donnie is equipped with sharp organizational skills and strong ability in dealing with people.
+                      She is passionate in delivering exceptional Client Service ensuring the best quality to help Clients
+                      achieve their goals.</p>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/maria_donneza_solis.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                  </div>
+                  <div class="row mb-5">
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/kenji_santos.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-10 lbl-team-info-boy" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">Kenji Santos</label> <br>
+                      <label for="" class="block-title font-12">Data Administrator</label>
+                      <p>Kenji’s responsibility is at the core of Full-Circle’s operations-maintaining the confidentiality and
+                      updating the robust database of contacts that have been generated from the Events.</p>
+                      <p>He ensures the correctness and accuracy of post event reports and data analyses before
+                      submitting to Clients.</p>
+                      <p>He is also responsible for reaching out to the target audience of each event through a variety of
+                      communications, and provides production and logistical support to the Event Manager in
+                      preparing and executing Corporate and Marketing events.</p>
+                    </div>
+                  </div>
+                  <div class="row mb-5">
+                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">Ana Marie Antoniano</label> <br>
+                      <label for="" class="block-title font-12">Admin Officer</label>
+                      <p>Marie oversees the management of Office operations, provides support and assistance to other
+                      division and administrative functions. She extends assistance in negotiations and acquiring
+                      quotations from third party suppliers, internal events, reports and correspondence and coordinates
+                      with other aspects related to events.</p>
+                      <p>Her responsibilities also include implementation of any other duties directed by the Finance and
+                      Operations manager and CEO.</p>
+                    </div>
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/ana_marie_antoniano.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              <h5 class="block-title mb-5 hint-text text-center">Supported by enthusiastic and highly skilled Team Members with impressive and collective Industry skills and experience.</h5>
             </div>
             <!-- <div class="row">
               <div class="col-lg-12">

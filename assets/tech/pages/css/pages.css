@@ -9116,3 +9116,17 @@ header {
   border-radius: 15px;
   margin-bottom: 30px;
 }
+
+.lbl-team-info-girl{
+  background: #f0f0f0;
+  padding: 23px;
+  text-align: justify;
+  box-shadow: -6px 6px 0px #ef9bbd;
+}
+
+.lbl-team-info-boy{
+  background: #f0f0f0;
+  padding: 23px;
+  text-align: justify;
+  box-shadow: -6px 6px 0px #b44c99;
+}
