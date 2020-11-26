@@ -254,6 +254,48 @@
         </div>
       </section>
       <!-- END NETWORK SOLUTIONS SECTION -->
+
+
+      <!-- BEGIN NETWORK SOLUTIONS SECTION -->
+      <section class="bg-master-lightest p-b-85 p-t-75" id="services">
+        <div class="container">
+          <div class="md-p-l-20 md-p-r-20 xs-no-padding">
+            <div class="row">
+              <div class="col-sm-5 col-md-12">
+                <h1 class="m-t-5 text-center">Our Team</h1>
+                <h5 class="block-title mb-5 hint-text text-center">The Team Behind Full Circle Events</h5>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-12 no-padding xs-p-l-15 xs-p-r-15 text-align-justify">
+                <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
+                  <div class="row">
+                    <div class="col-lg-2" data-aos="fade-up-right">
+                      <img src="<?php echo base_url('assets/image/our_team/anna_solis_crespo.jpg'); ?>" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-lg-10" data-aos="fade-up-left">
+                      <label for="" class="font-weight-bold" style="font-size:18px;">Anna Solis-Crespo</label> <br>
+                      <label for="" class="block-title font-12">Founder CEO</label>
+                      <p>22 Years in the Industry, with a track record of over 1,500 events, Anna Solis-Crespo boasts of
+                      extensive experience in Event Planning, Marketing Communications, Project Management and
+                      Public Relations, garnered by working with leading Multinational Companies in the IT industry.</p>
+                      <p>She is widely known to her colleagues in the Industry, having earned a reputation for impeccable
+                      skills and a keen eye for details and Event implementation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- <div class="row">
+              <div class="col-lg-12">
+                <div class="text-center">
+                  <h5 class="block-title m-t-40 hint-text m-b-0">Follow your Heart</h5>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- END NETWORK SOLUTIONS SECTION -->
       
       
       <!-- BEGIN MAIN CONTENT SECTION -->
