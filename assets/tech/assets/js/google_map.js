@@ -21,7 +21,7 @@
           zoom: zoomLevel,
           disableDefaultUI: true,
           // The latitude and longitude to center the map (always required)
-          center: new google.maps.LatLng(14.5564, 121.0142), // Mile Long Bldg
+          center: new google.maps.LatLng(14.640962, 121.007708), // Mile Long Bldg
           scrollwheel: true,
           // Map styling
           styles: [

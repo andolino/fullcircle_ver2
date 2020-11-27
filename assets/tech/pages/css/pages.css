@@ -37,6 +37,7 @@ body {
   /* margin: 0px; */
   /* padding: 0px; */
   /* overflow-x: hidden;  */
+  
 }
 /* Body Triggers for layout options 
 ------------------------------------------------------------------
@@ -1942,7 +1943,7 @@ hr.dotted {
   background-color: #2c2c2c;
 }
 .bg-master-darker {
-  background-color: #0a1013;
+  background-color: #0f080d;
 }
 .bg-master-darkest {
   background-color: #121212;
@@ -2156,6 +2157,9 @@ hr.dotted {
 }
 .text-menu {
   color: #788195 !important;
+}
+.text-light-pink {
+  color: #ef9bbd !important;
 }
 /* Text Weight
 ------------------------------------
@@ -5584,9 +5588,9 @@ input.error:-webkit-autofill:focus,
   background: #FFF;
   float: left;
   position: relative;
-  border-radius: 4px;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 2px;
+  border-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   margin-bottom: 20px;
   width: 300px;
   border: 1px solid #e6e6e6;
@@ -8862,13 +8866,13 @@ sup.dollar {
   background: #f0f0f0;
 }
 
-.custom-section{
+/* .custom-section{
   height: 100vh;
-}
+} */
 
 .custom-section h1 {
   font-weight: 600 !important;
-  color: #fe21af;
+  color: #b44a98;
 }
 
 .custom-section h1::after {
@@ -9129,4 +9133,22 @@ header {
   padding: 23px;
   text-align: justify;
   box-shadow: -6px 6px 0px #b44c99;
+}
+
+.img-fit-lg {
+  object-fit: cover;
+  height: 250px;
+  object-position: 0 7%;
+}
+
+.feat-events{
+  text-align: left;
+  background: rgba(128, 86, 118, 0.7);
+  padding: 36px;
+}
+
+.bg-master-featured-events{
+  background: #332330;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #332330, #10090e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #332330, #10090e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

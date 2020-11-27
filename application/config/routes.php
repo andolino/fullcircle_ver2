@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] 			 		= 'Main';
 $route['submit-contact'] 			 		= 'Main/submit_contact';
+$route['featured-events'] 			 		= 'Main/featuredEvents';
+$route['featured-events/(:any)/(:any)/(:any)'] 			 		= 'Main/featuredEvents';
 
 
 
