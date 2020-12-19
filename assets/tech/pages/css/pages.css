@@ -34,8 +34,8 @@ html,
 body {
   /* width: 100%; */
   height: 100%;
-  /* margin: 0px; */
-  /* padding: 0px; */
+  margin: 0px;
+  padding: 0px;
   /* overflow-x: hidden;  */
   
 }
@@ -46,7 +46,7 @@ body.mobile {
   position: relative;
 }
 body.pace-primary .pace .pace-progress {
-  background-color: #6d5cae;
+  background-color: #491e47;
 }
 body.pace-success .pace .pace-progress {
   background-color: #10cfbd;
@@ -66,9 +66,18 @@ body.pace-dark .pace .pace-progress {
 body.pace-white .pace .pace-progress {
   background-color: #ffffff;
 }
+b, strong {
+  font-weight: 600 !important;
+} 
 .mobile-wrapper {
   height: 100%;
   width: 100%;
+}
+.font-12px{
+  font-size: 12px;
+}
+.font-14px{
+  font-size: 14px;
 }
 .mobile-wrapper > .swiper-wrapper > .swiper-slide {
   height: auto;
@@ -112,7 +121,7 @@ body.pace-white .pace .pace-progress {
 .header.transparent-light .menu > li > a:not(.btn) {
   color: #ffffff;
   /* opacity: 0.5; */
-  font-size: 10px;
+  font-size: 12px;
 }
 .header.transparent-light .menu > li > a:not(.btn):focus {
   opacity: 0.8;
@@ -315,7 +324,7 @@ body.pace-white .pace .pace-progress {
   background-image: linear-gradient(to top, rgb(208 131 172 / 0%), rgb(0 0 0 / 94%));
 }
 .header.bg-header .header-inner {
-  line-height: 110px;
+  line-height: 107px;
 }
 .header.bg-header .menu-toggler {
   margin-top: 47.5px;
@@ -339,7 +348,7 @@ body.pace-white .pace .pace-progress {
   margin-top: 14.5px;
 }
 .header.minimized {
-  height: 100px !important;
+  height: 135px !important;
 }
 .header.minimized .header-inner {
   line-height: 60px !important;
@@ -389,7 +398,6 @@ body.pace-white .pace .pace-progress {
   font-size: 13px;
   margin-right: 12px;
   vertical-align: middle;
-  line-height: 8.5;
 }
 .header .menu > li.multiline > nav {
   top: 43px;
@@ -2459,8 +2467,8 @@ Alternate buttons
 }
 .btn-baby-pink{
   color: #ffffff;
-  background-color: #b44a98;
-  border-color: #c478af;
+  background-color: #ef9bbd;
+  border-color: #d792ae;
 }
 .btn-black.active,
 .btn-black:active,
@@ -7251,6 +7259,7 @@ section.last:before {
   .demo-custom-height {
     height: calc(100% - 135px);
   }
+  
 }
 @media only screen and (min-width: 768px) {
   .demo-slider-one {
@@ -7265,7 +7274,61 @@ section.last:before {
   .demo_float_screen_2 {
     width: 100%;
   }
+  
 }
+@media only screen and (max-width: 480px) {
+  #loadPage {
+    font-size: 12px !important;
+  }
+  .img-thumbnail{
+    margin-bottom: 20px !important;
+  }
+  .head-text-diy {
+    width: 100% !important;
+  }
+  .bg-label {
+    width: 100% !important;
+  }
+  .contact_number{
+    display: none !important;
+  }
+  .contact_email{
+    display: none !important;
+  }
+  .logo{
+    width: 100px !important;
+  }
+  .logo2 {
+    width: 95px !important;
+  }
+  .menu a{
+    margin-top: 0 !important;
+  }
+  .img-contact-us{
+    margin-top: 17px;
+    margin-left: 34px;
+  }
+  .top-contact-us ul{
+    margin-left: 34px;
+  }
+  rs-mask-wrap {
+    top: 301px;
+  }
+  /* #slider-1-slide-1-layer-3{
+    left: 15px !important; 
+    width: 200px;
+  }
+  #slider-1-slide-1-layer-5 {
+    left: 15px !important; 
+  }
+  #slider-1-slide-1-layer-6 {
+    margin-left: 50px !important;
+  } */
+  .header.minimized {
+    height: 100px !important;
+  }
+}
+
 .demo-custom-height-2 {
   height: calc(100vh - 60px);
 }
@@ -7670,6 +7733,12 @@ sup.dollar {
     Label the data
     */
   }
+  .contact_number{
+    display: none !important;
+  }
+  .contact_email{
+    display: none !important;
+  }
   .pricing-table thead tr {
     position: absolute;
     top: -9999px;
@@ -7747,7 +7816,18 @@ sup.dollar {
     transform: none !important;
     display: initial !important;
   }
+  
 }
+
+@media only screen and (max-width: 980px) {
+  .contact_number{
+    display: none !important;
+  }
+  .contact_email{
+    display: none !important;
+  }
+}
+
 /*** General Desktops ***/
 @media only screen and (min-width: 1200px) {
   .vcenter {
@@ -7755,6 +7835,9 @@ sup.dollar {
     -webkit-transform: translateY(50%);
     -ms-transform: translateY(50%);
     transform: translateY(50%);
+  }
+  .container {
+    max-width: 1422px !important;
   }
 }
 /*** General Small Screen Desktops ***/
@@ -8911,7 +8994,7 @@ sup.dollar {
 
   .logo {
     position: absolute;
-    width: 1%;
+    margin-top: 0 !important;
   }
 }
 
@@ -8925,6 +9008,10 @@ sup.dollar {
 
 .font-14px{
   font-size: 14px;
+}
+
+.font-18px{
+  font-size: 18px;
 }
 /*** Retina Display Images **/
 /*** Slider **/
@@ -8960,15 +9047,9 @@ header {
   text-align: center;
 }
 
-.bg-label{
-  background: rgb(99 46 85 / 29%);
-}
-
 .slide-content {
   padding: 10px 20px 10px 0;
 }
-
-
 
 .slide-content .h1 {
   font-size: 62px;
@@ -9082,10 +9163,11 @@ header {
   }
 
   .hero .hero-slide .header-content {
-    left: 50%;
+    /* left: 50%; */
+    /* width: 100%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    margin: 0 auto;
+    margin: 0 auto; */
   }
 }
 
@@ -9098,9 +9180,16 @@ header {
 }
 
 .bg-label {
-  width: 34%;
+  width: 56%;
   margin: auto;
   padding: 12px;
+  text-align: left;
+}
+
+.mb-4.slide-content.aos-init.aos-animate {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1.1;
 }
 
 .card.aos-init.aos-animate {
@@ -9108,17 +9197,17 @@ header {
   border-radius: 0;
 }
 
-
 .head-text-diy {
-  background: #b44a98;
-  color: #f0f0f0;
+  background-image: url('../../../image/abstract-title.jpg');
+  color: #2c2929;
   padding: 7px;
-      padding-bottom: 7px;
+  padding-bottom: 7px;
   width: 44%;
   margin: auto;
-      margin-bottom: auto;
+  margin-bottom: auto;
   border-radius: 15px;
   margin-bottom: 30px;
+  background-position: center bottom;
 }
 
 .lbl-team-info-girl{
@@ -9151,4 +9240,140 @@ header {
   background: #332330;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #332330, #10090e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #332330, #10090e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .img-thumbnail{
+  margin: auto;
+  display: flex;
+} */
+
+
+.slick-prev.slick-arrow {
+  position: absolute;
+  left: 7px;
+  top: 41%;
+  z-index: 9;
+}
+
+.slick-next.slick-arrow {
+  position: absolute;
+  right: 7px;
+  top: 41%;
+  z-index: 9;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.font-30{
+  font-size: 30px;
+}
+
+.slick-prev.cursor-pointer.font-30.slick-arrow {
+  color: #ef9bbd;
+}
+.slick-next.cursor-pointer.font-30.slick-arrow {
+  color: #ef9bbd;
+}
+
+img {
+  image-orientation: from-image;
+}
+
+li a.page-scroll {
+  line-height: 47px !important;
+  height: 44px;
+  margin-top: 26px;
+}
+
+.top-contact-us ul{
+  list-style-type: none;
+}
+
+#our-team{
+  background-image: url('../../../image/bg-abstract.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: center;
+}
+
+#featured-events{
+  background-image: url('../../../image/slider/featured-events-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: center bottom;
+}
+
+/* background-image: url('http://fullcircle-asia.com/test-site/assets/image/slider/featured-events-bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;height: 100%; */
+
+.thumb-text{
+  font-size: 14px;
+  font-weight: 700;
+  color: #5b5959;
+}
+
+.text-pink{
+  color: #633553 !important;
+}
+
+rs-sbg{
+  background-position: 50% 100% !important;
+}
+
+.slider-sub{
+  text-transform: none; text-align: center;
+}
+
+/* #rev_slider_1_1{
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+rs-fullwidth-wrap {
+  height: 100vh !important;
+} */
+
+#slider-1-slide-3-layer-3{
+  text-transform: none !important;
+}
+
+#slider-1-slide-3-layer-7, #slider-1-slide-1-layer-2 {
+  padding: 17px !important;
+  background: rgba(223, 153, 214, 0.36);
+}
+
+
+
+#slider-1-slide-2-layer-2{
+  padding: 17px !important;
+  background: rgba(223, 153, 214, 0.36);
+}
+
+rs-mask-wrap a {
+  color: #fff;
+}
+
+.wpb_wrapper {
+  height: 100vh;
+}
+
+#rev_slider_1_1 {
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+#rev_slider_1_1_wrapper{
+  height: 100vh;
+}
+
+#slider-1-slide-2-layer-2 {
+  padding: 17px !important;
+  background: rgba(223, 153, 214, 0.36);
+}
+
+#about-us{
+  background-image: url('../../../image/bg-watermark.png');
+  background-repeat: no-repeat;
+  background-position: top center;
 }
