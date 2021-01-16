@@ -128,13 +128,13 @@
                 <a class="page-scroll" href="#about-us">About Us</a>
               </li>
               <li>
+                <a class="page-scroll" href="#our-team">Our Team</a>
+              </li>
+              <li>
                 <a class="page-scroll" href="#div-our-services">Our Services </a>
               </li>
               <li>
                 <a class="page-scroll" href="#our-clients">Our Clients</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#our-team">Our Team</a>
               </li>
               <li>
                 <a class="page-scroll" href="#featured-events">Featured Events</a>

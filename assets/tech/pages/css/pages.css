@@ -9299,7 +9299,7 @@ li a.page-scroll {
 }
 
 #our-team{
-  background-image: url('../../../image/bg-abstract.png');
+  background-image: url('../../../image/logos/bg-section.png');
   background-repeat: no-repeat;
   background-size: cover;
 background-position: center;
@@ -9347,7 +9347,7 @@ rs-fullwidth-wrap {
 
 #slider-1-slide-3-layer-7, #slider-1-slide-1-layer-2 {
   padding: 17px !important;
-  background: rgba(223, 153, 214, 0.36);
+  background: rgba(115, 44, 104, 0.63);
 }
 
 
@@ -9383,4 +9383,13 @@ rs-mask-wrap a {
   background-image: url('../../../image/bg-watermark.png');
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.social-media {
+  padding-top: 12px !important;
+  padding-left: 0 !important;
+}
+
+.height-155px {
+	height: 155px !important;
 }

@@ -1,11 +1,11 @@
 
 <!-- START CONTACT SECTION -->
       
-<section class="" id="contact-us" style="height:auto;background-image: url('<?php echo base_url() . 'assets/image/contact-us.jpg'; ?>'); background-repeat:no-repeat; background-position:center; background-size:cover;">
+<section class="" id="contact-us" style="height:auto;background-image: url('<?php echo base_url() . 'assets/image/logos/full_circle_swirl_background_16x9.jpg'; ?>'); background-repeat:no-repeat; background-position:center; background-size:cover;">
 <div class="container container-fixed-lg p-t-65 p-b-100  sm-p-b-30 sm-m-b-30 custom-section" id="contact-us" style="height:auto;">
-        <div class="row pt-5" style="background: rgba(114, 167, 219, 0.13);padding: 57px;">
+        <div class="row pt-6 mt-4" style="background: rgba(83, 48, 72, 0.42);padding: 57px;">
           <div class="col-sm-5 col-md-6 m-b-20">
-            <h1 class="m-t-5 pl-0 text-light">Reach Us</h1>
+            <h2 class="m-t-5 pl-0 text-light">LET'S MAKE IT HAPPEN TOGETHER!</h2>
           </div>
           <div class="col-md-12 p-0"></div>
           <div class="col-md-12" >
@@ -13,19 +13,36 @@
             <!-- <h1>Get in Touch</h1> -->
             <div class="row p-r-40 sm-p-r-0">
               <div class="col-lg-6">
-                <p class="pb-2 text-light">Let us sit down and talk about how we can help you.</p>
+                <p class="pb-2 text-light">Drop a line or call us and lets talk about how we can help you.</p>
                 <div class="row pb-3">
                   <div class="col-sm-12">
                     <p class="fs-12 font-montserrat bold all-caps no-margin hint-text text-light">Hotline </p>
-                    <p class="hint-text no-margin fs-14 text-light">+63919 0059 768</p>
+                    <p class="hint-text no-margin fs-14 text-light"><i class="fas fa-phone" style="font-size: 18px;margin-right: 7px;"></i> +63919 0059 768</p>
                   </div>
                   <div class="col-sm-12 mb-2">
                     <p class="fs-12 font-montserrat bold all-caps no-margin hint-text text-light">Email Us </p>
-                    <p class="hint-text no-margin fs-14 text-light"><a href = "mailto: sales@techturf.com.ph"><i class="fa fa-envelope" aria-hidden="true"></i> events@fullcircle-asia.com</a></p>
+                    <p class="hint-text no-margin fs-14 text-light"><a href = "mailto: sales@techturf.com.ph" class="text-light"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 7px;color:#fff;" aria-hidden="true"></i> events@fullcircle-asia.com</a></p>
                   </div>
                   <div class="col-sm-12">
                     <p class="fs-12 font-montserrat bold all-caps no-margin hint-text text-light">Address</p>
-                    <p class="hint-text no-margin fs-14 text-light"><i class="fa fa-envelope" aria-hidden="true"></i> Unit UG-16 Cityland Dela Rosa Condominium, Dela Rosa St.. Brgy. Pio Del Pilar, Makati City</p>
+                    <p class="hint-text no-margin fs-14 text-light"><i class="fas fa-map-marker-alt" style="font-size: 18px;margin-right: 7px;" aria-hidden="true"></i> Unit UG-16 Cityland Dela Rosa Condominium, Dela Rosa St.. Brgy. Pio Del Pilar, Makati City</p>
+                    <ul class="no-style fs-11 no-padding font-arial social-media pl-0 mt-2">
+                      <li class="inline no-padding">
+                        <a href="" class="text-light fs-16 xs-no-padding">
+                        <i class="fab fa-facebook font-18px"></i> &nbsp;&nbsp;
+                        </a>
+                      </li>
+                      <li class="inline no-padding">
+                        <a href="" class="text-light fs-16">
+                          <i class="fab fa-linkedin font-18px"></i> &nbsp;&nbsp;
+                        </a>
+                      </li>
+                      <li class="inline no-padding">
+                        <a href="" class="text-light fs-16">
+                          <i class="fab fa-instagram font-18px" style="margin-right: 21px;"></i>
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                   <!-- <div class="col-sm-6">
                     <p class="fs-12 font-montserrat bold all-caps no-margin hint-text">Email </p>
@@ -136,28 +153,11 @@
           <div class="col-sm-6">
            
             <div class="m-t-10 ">
-              <ul class="no-style fs-11 no-padding font-arial">
-                <li class="inline no-padding">
-                  <a href="https://www.facebook.com/Zippylet-IT-Services-1067368043389649/" class="text-light-pink p-l-30 fs-16 xs-no-padding">
-                  <i class="fab fa-facebook font-14px"></i> &nbsp;&nbsp;
-                  </a>
-                </li>
-                <li class="inline no-padding">
-                  <a href="https://twitter.com/ZippyletInc" class="text-light-pink p-l-30 fs-16">
-                    <i class="fab fa-linkedin font-14px"></i> &nbsp;&nbsp;
-                  </a>
-                </li>
-                <li class="inline no-padding">
-                  <a href="https://www.linkedin.com/company/zippylet-i.t-services?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf" class="text-light-pink p-l-30 fs-16">
-                    <i class="fab fa-instagram font-14px" style="margin-right: 21px;"></i>
-                  </a>
-                </li>
-              </ul>
+              
             </div>
           </div>
           <div class="col-sm-6 text-right font-arial sm-text-left">
-            
-            <p class="fs-11 muted text-white m-t-5">© 2020 Full Circle Events Asia | Designed by DondonPentavia</p>
+            <p class="fs-11 muted text-white m-t-5">© <?php echo date('Y'); ?> Full Circle Events Asia | Designed by DondonPentavia</p>
           </div>
         </div>
       </div>
@@ -294,6 +294,15 @@
             }
           }]
         });
+
+
+
+
+
+
+
+        
+
       });
     </script>
     

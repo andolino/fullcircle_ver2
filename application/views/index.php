@@ -17,7 +17,7 @@
                     <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
                       <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.1">
                         <rs-slides>
-                          <rs-slide data-key="rs-3" data-title="Slide" data-thumb="//www.eventsatwork.com/wp-content/uploads/2019/10/Slider-1-image-min-100x50.jpg" data-anim="ei:d,d;eo:d,d;s:d,d;r:0,0;t:fadetorightfadefromleft,fadefromleft;sl:d,d;" data-sloop="s:2500;e:4500;">
+                          <rs-slide data-key="rs-3" data-title="Slide" data-thumb="" data-anim="ei:d,d;eo:d,d;s:d,d;r:0,0;t:fadetorightfadefromleft,fadefromleft;sl:d,d;" data-sloop="s:2500;e:4500;">
                             <img src="<?php echo base_url('assets/image/slider/photo1.jpg'); ?>" title="Slider 1 image-min" width="5760" height="3840" data-parallax="off" class="rev-slidebg" data-no-retina>
                             <rs-layer
                                 id="slider-1-slide-3-layer-20" 
@@ -77,7 +77,7 @@
                             ><a class="button line page-scroll" href="#contact-us">Lets Make it Happen!</a> 
                             </rs-layer>
                           </rs-slide>
-                          <rs-slide data-key="rs-2" data-title="Slide" data-thumb="//www.eventsatwork.com/wp-content/uploads/2019/10/slider-2-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+                          <rs-slide data-key="rs-2" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
                             <img src="<?php echo base_url('assets/image/slider/photo2.jpg'); ?>" title="slider-2" width="2600" height="1405" data-parallax="off" class="rev-slidebg" data-no-retina>
                             <!---->
                             <!----><!--
@@ -86,8 +86,8 @@
                               id="slider-1-slide-2-layer-22" 
                               data-type="text"
                               data-color="rgb(57, 51, 51)"
-                              data-xy="x:c;xo:-231px;y:c;yo:-105px;"
-                              data-text="s:85;l:128;fw:700;a:inherit;"
+                              data-xy="x:c;xo:-191px;y:c;yo:-133px;"
+                              data-text="s:50;l:128;fw:700;a:inherit;"
                               data-frame_0="y:-100%;o:1;tp:600;"
                               data-frame_0_mask="u:t;"
                               data-frame_1="tp:600;sp:1500;sR:10;"
@@ -100,8 +100,8 @@
                               id="slider-1-slide-2-layer-3" 
                               data-type="text"
                               data-color="rgb(57, 51, 51)"
-                              data-xy="x:c;xo:-231px;y:c;yo:-20px;"
-                              data-text="s:90;l:98;fw:700;a:inherit;"
+                              data-xy="x:c;xo:-200px;y:c;yo:-80px;"
+                              data-text="s:50;l:98;fw:700;a:inherit;"
                               data-frame_0="y:-100%;o:1;tp:600;"
                               data-frame_0_mask="u:t;"
                               data-frame_1="tp:600;sp:1500;sR:10;"
@@ -114,8 +114,8 @@
                               id="slider-1-slide-2-layer-5" 
                               data-type="text"
                               data-color="rgb(57, 51, 51)"
-                              data-xy="x:c;xo:-306px;y:c;yo:73px;"
-                              data-text="s:90;l:128;fw:700;a:inherit;"
+                              data-xy="x:c;xo:-235px;y:c;yo:-20px;"
+                              data-text="s:50;l:128;fw:700;a:inherit;"
                               data-frame_0="y:-100%;o:1;tp:600;"
                               data-frame_0_mask="u:t;"
                               data-frame_1="tp:600;sp:1500;sR:10;"
@@ -128,8 +128,8 @@
                               id="slider-1-slide-2-layer-21" 
                               data-type="text"
                               data-color="rgb(57, 51, 51)"
-                              data-xy="x:c;xo:-197px;y:c;yo:166px;"
-                              data-text="s:90;l:128;a:center;fw:700;"
+                              data-xy="x:c;xo:-176px;y:c;yo:37px;"
+                              data-text="s:50;l:128;a:center;fw:700;"
                               data-frame_0="y:-100%;o:1;tp:600;"
                               data-frame_0_mask="u:t;"
                               data-frame_1="tp:600;sp:1500;sR:10;"
@@ -155,7 +155,7 @@
                               ><a class="button line page-scroll" href="#featured-events">Featured Events</a> 
                             </rs-layer>				      
                           </rs-slide>
-                          <rs-slide data-key="rs-1" class="we-make-it-happen" data-title="Slide" data-thumb="//www.eventsatwork.com/wp-content/uploads/2019/10/Slider-3-image-min-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+                          <rs-slide data-key="rs-1" class="we-make-it-happen" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
                             <img src="<?php echo base_url('assets/image/slider/photo3.jpg'); ?>" title="Slider 3 image-min" width="4928" height="3264" data-parallax="off" class="rev-slidebg" data-no-retina>
                 <!--
                             -->
@@ -393,33 +393,33 @@
               <div class="col-sm-6 col-md-6 col-lg-6 no-padding xs-p-l-15 xs-p-r-15 text-align-justify">
                 <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
                   <div class="row">
-                    <div class="offset-sm-3 col-9 col-5 pl-5" style="font-size: 36px;font-weight: 600;line-height: 1.3;margin-bottom: 19px;">More than <br> an Event, <br> It's an <br> Experience</div>
+                    <div class="offset-sm-3 col-9 col-5 pl-5" style="font-size: 36px;font-weight: 600;line-height: 1.3;margin-bottom: 19px;">More than <br> an Event, <br> It's an <br> Experience.</div>
                   </div>
                   <div class="carou-video">
-                    <div>
+                    <!-- <div>
                       <p>Dell EMC Partner Kick 2017</p>
-                      <video class="m-auto d-flex" width="100%" height="360" poster="<?php echo base_url() . 'assets/image/dell_pan.PNG'; ?>" controls>
-                        <source src="<?php echo base_url() . 'assets/videos/clients/dell_pan_final_edit.mp4'; ?>" type="video/mp4">
+                      <video class="m-auto d-flex" width="100%" height="360" poster="<?php //echo base_url() . 'assets/image/dell_pan.PNG'; ?>" controls>
+                        <source src="<?php //echo base_url() . 'assets/videos/clients/dell_pan_final_edit.mp4'; ?>" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
                       </video> 
-                    </div>
+                    </div> -->
                     <div>
                       <p>Phildev IDEA Global Entrepreneurship Workshop 2016</p>
-                      <video class="m-auto d-flex" width="100%" height="360" controls>
+                      <video class="m-auto d-flex" width="100%" height="360" poster="<?php echo base_url() . 'assets/image/phil_dev.PNG'; ?>" controls>
                         <source src="<?php echo base_url() . 'assets/videos/clients/phil_dev_idea2016_fullhighlight_with_credits_sub_fullhd1080p_superfinalversion.mp4'; ?>" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
                       </video> 
                     </div>
                     <div>
                       <p>Mondato Asia Summit 2015</p>
-                      <video class="m-auto d-flex" width="100%" height="360" controls>
+                      <video class="m-auto d-flex" width="100%" height="360" poster="<?php echo base_url() . 'assets/image/mondato.PNG'; ?>" controls>
                         <source src="<?php echo base_url() . 'assets/videos/clients/mondato_asia_summit_2015_events_by_full_circle.mp4'; ?>" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
                       </video> 
                     </div>
                     <div>
                       <p>Acumatica The Cloud ERP</p>
-                      <video class="m-auto d-flex" width="100%" height="360" controls>
+                      <video class="m-auto d-flex" width="100%" height="360" poster="<?php echo base_url() . 'assets/image/acumatica.PNG'; ?>" controls>
                         <source src="<?php echo base_url() . 'assets/videos/clients/acumatica_video_2.mp4'; ?>" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
                       </video>
@@ -450,17 +450,17 @@
           <div class="md-p-l-20 md-p-r-20 xs-no-padding">
             <div class="row">
               <div class="col-sm-5 col-md-12 pt-5">
-                <h1 class="m-t-5 text-center">The Team Behind Full Circle Events</h1>
+                <h1 class="m-t-5 text-center text-light">The Team Behind Full Circle Events</h1>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-12 no-padding xs-p-l-15 xs-p-r-15 text-align-justify">
                 <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
                   <div class="row mb-5">
-                    <div class="col-lg-10 offset-lg-2 pl-0"><label for="" class="font-weight-bold" style="font-size:18px;">Anna Solis-Crespo</label></div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-9 offset-lg-3 pl-0"><label for="" class="font-weight-bold text-light" style="font-size:18px;">Anna Solis-Crespo</label></div>
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/anna_solis_crespo.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
-                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
-                      <label for="" class="block-title font-12">Founder CEO</label>
+                    <div class="col-lg-7 lbl-team-info-girl" data-aos="fade-up-left">
+                      <label for="" class="block-title font-12">Founder and CEO</label>
                       <p>22 Years in the Industry, with a track record of over 1,500 events, Anna Solis-Crespo boasts of
                       extensive experience in Event Planning, Marketing Communications, Project Management and
                       Public Relations, garnered by working with leading Multinational Companies in the IT industry.</p>
@@ -469,8 +469,8 @@
                     </div>
                   </div>
                   <div class="row mb-5">
-                    <div class="col-lg-2 offset-lg-9 pl-0"><label for="" class="font-weight-bold" style="font-size:18px;">David Crespo</label></div>
-                    <div class="col-lg-10 lbl-team-info-boy" data-aos="fade-up-left">
+                    <div class="col-lg-2 offset-lg-8 pl-0"><label for="" class="font-weight-bold text-light" style="font-size:18px;">David Crespo</label></div>
+                    <div class="col-lg-7 offset-lg-2 lbl-team-info-boy" data-aos="fade-up-left">
                       <!-- <label for="" class="font-weight-bold" style="font-size:18px;">David Crespo</label> <br> -->
                       <label for="" class="block-title font-12">Chief Finance Officer</label>
                         <p>As the Full Circle’s CFO, David’s main responsibility is to safeguard the Company’s Financial growth
@@ -478,16 +478,16 @@
                         the years through sound financial allocation and recommendations, and ensuring compliance to the
                         annual and monthly budgets.</p>
                     </div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/david_crepo.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
                   </div>
                   <div class="row mb-5">
-                    <div class="col-lg-10 offset-lg-2 pl-0"><label for="" class="font-weight-bold" style="font-size:18px;">Maileen Crespo</label></div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-9 offset-lg-3 pl-0"><label for="" class="font-weight-bold text-light" style="font-size:18px;">Maileen Crespo</label></div>
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/maileen_crespo.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
-                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                    <div class="col-lg-7 lbl-team-info-girl" data-aos="fade-up-left">
                       <!-- <label for="" class="font-weight-bold" style="font-size:18px;">Maileen Crespo</label> <br> -->
                       <label for="" class="block-title font-12">Consultant</label>
                       <p>Maileen Crespo is considered a pioneer of one of the leading Event Management companies in
@@ -497,8 +497,8 @@
                     </div>
                   </div>
                   <div class="row mb-5">
-                    <div class="col-lg-2 offset-lg-8 pr-0 text-right"><label for="" class="font-weight-bold" style="font-size:18px;">Maria Donneza Solis</label></div>
-                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                    <div class="col-lg-3 offset-lg-6 pr-0 text-right"><label for="" class="font-weight-bold text-light" style="font-size:18px;">Maria Donneza Solis</label></div>
+                    <div class="col-lg-7 offset-lg-2 lbl-team-info-girl" data-aos="fade-up-left">
                       <!-- <label for="" class="font-weight-bold" style="font-size:18px;">Maria Donneza Solis</label> <br> -->
                       <label for="" class="block-title font-12">Project Manager</label>
                       <p>With almost 7 years in Events management, Donnie is gifted with impressive skills and extensive experience in Event Planning and Project Management both Local and International. </p>
@@ -506,16 +506,16 @@
                       She is passionate in delivering exceptional Client Service ensuring the best quality to help Clients
                       achieve their goals.</p>
                     </div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/maria_donneza_solis.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
                   </div>
                   <div class="row mb-5">
-                    <div class="col-lg-10 offset-lg-2 pl-0"><label for="" class="font-weight-bold" style="font-size:18px;">Kenji Santos</label></div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-9 offset-lg-3 pl-0"><label for="" class="font-weight-bold text-light" style="font-size:18px;">Kenji Santos</label></div>
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/kenji_santos.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
-                    <div class="col-lg-10 lbl-team-info-boy" data-aos="fade-up-left">
+                    <div class="col-lg-7 lbl-team-info-boy" data-aos="fade-up-left">
                       <!-- <label for="" class="font-weight-bold" style="font-size:18px;">Kenji Santos</label> <br> -->
                       <label for="" class="block-title font-12">Data Administrator</label>
                       <p>Kenji’s responsibility is at the core of Full-Circle’s operations-maintaining the confidentiality and
@@ -528,8 +528,8 @@
                     </div>
                   </div>
                   <div class="row mb-5">
-                    <div class="col-lg-2 text-right offset-lg-8 pr-0"><label for="" class="font-weight-bold" style="font-size:18px;">Ana Marie Antoniano</label></div>
-                    <div class="col-lg-10 lbl-team-info-girl" data-aos="fade-up-left">
+                    <div class="col-lg-2 text-right offset-lg-7 pr-0"><label for="" class="font-weight-bold text-light" style="font-size:18px;">Ana Marie Antoniano</label></div>
+                    <div class="col-lg-7 offset-lg-2 lbl-team-info-girl" data-aos="fade-up-left">
                       <!-- <label for="" class="font-weight-bold" style="font-size:18px;">Ana Marie Antoniano</label> <br> -->
                       <label for="" class="block-title font-12">Admin Officer</label>
                       <p>Marie oversees the management of Office operations, provides support and assistance to other
@@ -539,7 +539,7 @@
                       <p>Her responsibilities also include implementation of any other duties directed by the Finance and
                       Operations manager and CEO.</p>
                     </div>
-                    <div class="col-lg-2" data-aos="fade-up-right">
+                    <div class="col-lg-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/ana_marie_antoniano.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
                   </div>
@@ -550,8 +550,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="text-center">
-                  <h5 class="mb-5 hint-text text-center font-weight-bold">Supported by enthusiastic and highly skilled Team Members with impressive and <br> collective Industry skills and experience.</h5>
-                  <h6 class="mb-4 ml-5 hint-text text-left font-weight-bold">Our Senior Telemarketers, Production Staff, Data Managers and Logistics Managers</h6>
+                  <h5 class="mb-5 hint-text text-center font-weight-bold text-light">Supported by enthusiastic and highly skilled Team Members with impressive and <br> collective Industry skills and experience.</h5>
+                  <h6 class="mb-4 ml-5 hint-text text-left font-weight-bold text-light">Our Senior Telemarketers, Production Staff, Data Managers and Logistics Managers</h6>
                   <div class="row">
                   <div class="col-lg-4">
                     <div class="row">
@@ -566,7 +566,7 @@
                   <div class="col-lg-4">
                     <div class="row">
                       <div class="col-lg-12 mb-3" data-aos="flip-up">
-                        <img style="object-fit: cover; width: 350px; height: 593px;" src="<?php echo base_url('assets/image/our_team/team_photo_33.jpg'); ?>" alt="" class="img-thumbnail">
+                        <img style="object-fit: cover; width: 350px; height: 593px;" src="<?php echo base_url('assets/image/our_team/Team_Photo_33.jpg'); ?>" alt="" class="img-thumbnail">
                       </div>
                     </div>
                   </div>
@@ -618,8 +618,8 @@
                 <div class="card d-flex m-auto mb-2" data-aos="fade-right">
                   <img src="<?php echo base_url('assets/image/our_services/pic1.png'); ?>" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-left"><strong>Marketing Communications Services</strong> </h5>
-                    <h6 class="card-title font-italic">Let’s thrive in the New Normal! </h6>
+                    <h5 class="card-title text-center"><strong>Marketing Communications Services</strong> </h5>
+                    <h6 class="card-title text-center font-italic">Let’s thrive in the New Normal! </h6>
                     <ul class="pl-3">
                       <li>Webinar and Virtual Events Management</li>
                       <li>Webinar Platform Integration and <br> Live Streaming and other Technical</li>
@@ -635,8 +635,8 @@
                 <div class="card d-flex m-auto mb-2" data-aos="fade-up">
                   <img src="<?php echo base_url('assets/image/our_services/pic2.jpg'); ?>" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title text-left"><strong>Full Event Management (In-Person/Live Events)</strong></h5>
-                    <h6 class="card-title text-left font-14px">Planning, Consulting and Execution to Post – event Reporting <br> <span class="font-italic">(In-Person/Live Events)</span></h6>
+                    <h5 class="card-title text-center"><strong>Full Event Management</strong></h5>
+                    <h6 class="card-title text-center font-14px">Planning, Consulting and Execution to Post – event Reporting <br> <span class="font-italic">(In-Person/Live Events)</span></h6>
                     <label class="font-italic">Pre-Event Services</label>
                     <ul class="pl-3">
                       <li>Hotel & venue site selection</li>
@@ -664,8 +664,8 @@
                   <img src="<?php echo base_url('assets/image/our_services/pic3.png'); ?>" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title text-left font-italic">We also handle other special services that may not involve complete management</h5>
-                    <h5 class="card-title text-left mb-0"><strong>Other Special/ Partial Services</strong></h5>
-                    <h6 class="card-title text-left mt-0">(In-person/Live Events)</h6>
+                    <h5 class="card-title text-center mb-0"><strong>Other Special/ Partial Services</strong></h5>
+                    <h6 class="card-title text-center mt-0">(In-person/Live Events)</h6>
                     <ul class="pl-3">
                       <li>Event day Management</li>
                       <li>Attendance Generation Management</li>
@@ -747,22 +747,21 @@
             </div>
           </div> -->
 
-
-
-
-        </div>
+          </div>
+          <div id="our-clients" class="mb-5"></div>
         </div>
       </section>
-      <!-- END  MAIN CONTENT SECTION -->
 
+      <!-- END  MAIN CONTENT SECTION -->
+      
 
   
 
 
 
       <!-- BEGIN OUR CLIENTS SECTION -->
-      <section class="p-b-50 p-t-50 bg-master-darkest sm-no-margin custom-section" id="our-clients" data-pages-bg-image="<?php echo base_url(); ?>assets/tech/assets/images/slider-2.jpg" data-bg-overlay="black" data-overlay-opacity="0.3" data-pages="parallax">
-        <div class="container p-b-50 p-t-50">
+      <section class="bg-master-darkest sm-no-margin custom-section" data-pages-bg-image="<?php echo base_url(); ?>assets/tech/assets/images/slider-2.jpg" data-bg-overlay="black" data-overlay-opacity="0.3" data-pages="parallax">
+        <div class="container p-b-50">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="col-xs-height col-middle">
@@ -789,7 +788,7 @@
 
 
       <!-- BEGIN MAIN CONTENT SECTION -->
-      <section class="p-b-85 p-b-65 pt-5">
+      <section class="pt-5">
         <div class="container">
         <div class="md-p-l-20 xs-no-padding clearfix">
           <div class="col-sm-12 col-md-12">
@@ -797,39 +796,38 @@
             <h5 class="block-title hint-text text-justify"></h5>
             <h5 class="block-title hint-text text-justify"></h5>
             <h5 class="block-title mb-5 hint-text text-justify"></h5>-->
-            <h5 class="block-title p-b-5 text-center">Here are those who Trust us over the Years!</h5> 
+            <h3 class="block-title p-b-5 text-center pb-5 mb-3" style="font-size:20px;">Here are those who Trust us over the Years!</h3> 
             <h5 class="block-title p-b-5 text-center head-text-diy">THE IT INDUSTRY LEADERS</h5> 
-            <div class="row mb-5">
+            <div class="row mt-5">
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/cisco.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/computrade_logo.jpg'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-3 col-4"><img src="<?php echo base_url('assets/image/clients/DellTechnologies.jpg'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/FireEye_logo.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-3 col-4"><img src="<?php echo base_url('assets/image/clients/Fujitsu.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-3 col-4"><img src="<?php echo base_url('assets/image/clients/FireEye_logo.png'); ?>" style="width: 85%;display: block;margin-left: auto;margin-right: auto;" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/Fujitsu.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <div class="row pb-5">
-              <div class="col-lg-1"></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/infor_logo.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/palo_alto.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+            <div class="row">
+              <!-- <div class="col-lg-1"></div> -->
+              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/infor_logo.png'); ?>" style="display: block;margin-left: auto;margin-right: auto;width: 66%;margin-top: 37px;" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-3 col-4"><img src="<?php echo base_url('assets/image/clients/palo_alto.png'); ?>" style="display: block;margin-left: auto;margin-right: auto;width: 82%;" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/SAPLOGO.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/usap_no_tag.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/vmware.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-1"></div>
+              <div class="col-lg-3 col-4"><img src="<?php echo base_url('assets/image/clients/usap_no_tag.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4 pl-0" style="margin-left: -8px;"><img src="<?php echo base_url('assets/image/clients/vmware.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <h5 class="block-title p-b-5 text-center head-text-diy">Our Clients from the Other Industries</h5>
-            <div class="row mb-5">
+            <h5 class="block-title mt-5 text-center head-text-diy">Our Clients from the Other Industries</h5>
+            <div class="row pt-3">
               <div class="offset-lg-2 col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/delmonte.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/intelligencecorp.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/kisa2.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/kcc.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <div class="row mb-5">
-              <div class="offset-lg-2 col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/marist.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/phil_dev.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/pnp.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/karaicon.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+            <div class="row mb-5 mt-3 pb-4">
+              <div class="offset-lg-1 col-lg-3 col-4 pr-0"><img src="<?php echo base_url('assets/image/clients/marist.png'); ?>" class="img-thumbnail border-0 float-right" alt=""></div>
+              <div class="col-lg-2 col-4 pr-0"><img src="<?php echo base_url('assets/image/clients/phil_dev.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4 pr-0"><img src="<?php echo base_url('assets/image/clients/pnp.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4 pr-0"><img src="<?php echo base_url('assets/image/clients/karaicon.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
             <h5 class="block-title p-b-5 text-center head-text-diy">The Other Clients that we have served</h5>
-            <div class="row mb-5">
+            <div class="row height-155px">
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/amti.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/ags.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/CTI.png'); ?>" class="img-thumbnail border-0" alt=""></div>
@@ -837,7 +835,7 @@
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/checkpoint.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/datacraft.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <div class="row mb-5">
+            <div class="row height-155px">
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/fritz_and_macziol.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/incontact.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/first_data.png'); ?>" class="img-thumbnail border-0" alt=""></div>
@@ -845,25 +843,21 @@
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/lamco.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/lenovo.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <div class="row mb-5">
+            <div class="row height-155px">
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/macrologic.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/microimage.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4 pr-0"><img src="<?php echo base_url('assets/image/clients/microimage.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/nec.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/ngkhai.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/questronix.png'); ?>" class="img-thumbnail border-0" alt=""></div>
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/riverbed.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/Riverbed.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
-            <div class="row mb-5">
-              <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/rightcomp.png'); ?>" class="img-thumbnail border-0" alt=""></div>
+            <div class="row">
+              <div class="col-lg-3 col-5"><img src="<?php echo base_url('assets/image/clients/rightcomp.png'); ?>" style="display: block;margin-left: auto;margin-right: auto;" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/SSi.png'); ?>" class="img-thumbnail border-0" alt=""></div>
               <div class="col-lg-2 col-4"><img src="<?php echo base_url('assets/image/clients/zenshin.png'); ?>" class="img-thumbnail border-0" alt=""></div>
             </div>
           </div>
 
-          <!-- <div class="row"> -->
-            <div class="col-lg-12">
-            </div>
-          <!-- </div> -->
             
         
 
