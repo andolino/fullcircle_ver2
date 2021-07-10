@@ -189,6 +189,7 @@ a.article:hover {
         display: none;
     }
     
+    
 }
 
 @media only screen and (max-width: 1400px) {
@@ -196,6 +197,8 @@ a.article:hover {
     font-size: 12px !important;
   }
 }
+
+
 
 .none {
   display: none;

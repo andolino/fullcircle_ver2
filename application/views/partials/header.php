@@ -37,31 +37,22 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/fontawesome-free-5.0.9/web-fonts-with-css/css/fa-brands.css'); ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/fontawesome-free-5.0.9/web-fonts-with-css/css/fa-regular.css'); ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/ekko-lightbox/ekko-lightbox.css'); ?>">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/css/aos.css'); ?>" rel="stylesheet">
   <link href="<?php echo base_url() . 'assets/css/lightbox.min.css'; ?>" rel="stylesheet">
   <style>
     i {
       font-style: normal !important;
     }
   </style>
- 
-<link rel='stylesheet' id='rs-plugin-settings-css' href='<?php echo base_url(); ?>assets/css/rs6.css' type='text/css' media='all' />
-<script type='text/javascript' src='<?php echo base_url() . 'assets/js/jquery.plugin.js'; ?>' id='jquery-core-js'></script>
-<script>var $ = jQuery.noConflict();</script>
-<script src="<?php echo base_url(); ?>assets/tech/pages/js/scrolling-nav.js"></script>
-
-  <script type='text/javascript' id='video-lightbox-js-extra'>
-  /* <![CDATA[ */
-  var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
-  /* ]]> */
-  </script>
-  <script type='text/javascript' src='https://www.eventsatwork.com/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0' id='tp-tools-js'></script>
-  <script type='text/javascript' src='https://www.eventsatwork.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.1' id='revmin-js'></script>
-
-  <script type="text/javascript">
-    function setREVStartSize(a){try{var b,c=document.getElementById(a.c).parentNode.offsetWidth;if(c=0===c||isNaN(c)?window.innerWidth:c,a.tabw=void 0===a.tabw?0:parseInt(a.tabw),a.thumbw=void 0===a.thumbw?0:parseInt(a.thumbw),a.tabh=void 0===a.tabh?0:parseInt(a.tabh),a.thumbh=void 0===a.thumbh?0:parseInt(a.thumbh),a.tabhide=void 0===a.tabhide?0:parseInt(a.tabhide),a.thumbhide=void 0===a.thumbhide?0:parseInt(a.thumbhide),a.mh=void 0===a.mh||""==a.mh?0:a.mh,"fullscreen"===a.layout||"fullscreen"===a.l)b=Math.max(a.mh,window.innerHeight);else{for(var d in a.gw=Array.isArray(a.gw)?a.gw:[a.gw],a.rl)(void 0===a.gw[d]||0===a.gw[d])&&(a.gw[d]=a.gw[d-1]);for(var d in a.gh=void 0===a.el||""===a.el||Array.isArray(a.el)&&0==a.el.length?a.gh:a.el,a.gh=Array.isArray(a.gh)?a.gh:[a.gh],a.rl)(void 0===a.gh[d]||0===a.gh[d])&&(a.gh[d]=a.gh[d-1]);var e,f=Array(a.rl.length),g=0;for(var d in a.tabw=a.tabhide>=c?0:a.tabw,a.thumbw=a.thumbhide>=c?0:a.thumbw,a.tabh=a.tabhide>=c?0:a.tabh,a.thumbh=a.thumbhide>=c?0:a.thumbh,a.rl)f[d]=a.rl[d]<window.innerWidth?0:a.rl[d];for(var d in e=f[0],f)e>f[d]&&0<f[d]&&(e=f[d],g=d);var h=c>a.gw[g]+a.tabw+a.thumbw?1:(c-(a.tabw+a.thumbw))/a.gw[g];b=a.gh[g]*h+(a.tabh+a.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(a.c).height=b,window.rs_init_css.innerHTML+="#"+a.c+"_wrapper { height: "+b+"px }"}catch(a){console.log("Failure at Presize of Slider:"+a)}};
-  </script>
-  </head>
+  
+  <link rel='stylesheet' id='rs-plugin-settings-css' href='<?php echo base_url(); ?>assets/css/rs6.css?random=<?php echo mt_rand(); ?>' type='text/css' media='all' />
+  <script type='text/javascript' src='<?php echo base_url() . 'assets/js/jquery.plugin.js'; ?>' id='jquery-core-js'></script>
+  <script src="<?php echo base_url('assets/js/aos.js'); ?>"></script>
+  
+  <script>var $ = jQuery.noConflict();</script>
+  <script src="<?php echo base_url(); ?>assets/tech/pages/js/scrolling-nav.js"></script>
+  
+</head>
   <body class="pace-dark" id="page-top">
     <!-- BEGIN HEADER -->
     <nav class="header bg-header transparent-light" data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark">
@@ -122,25 +113,25 @@
             </div>
             <ul class="menu p-0">
               <li>
-                <a class="page-scroll" href="#page-top" class="active">Home </a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#page-top' :  base_url() . '#page-top'; ?>" class="active">Home </a>
               </li>
               <li>
-                <a class="page-scroll" href="#about-us">About Us</a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#about-us' :  base_url() . '#about-us'; ?>">About Us</a>
               </li>
               <li>
-                <a class="page-scroll" href="#our-team">Our Team</a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#our-team' :  base_url() . '#our-team'; ?>">Our Team</a>
               </li>
               <li>
-                <a class="page-scroll" href="#div-our-services">Our Services </a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#div-our-services' :  base_url() . '#div-our-services'; ?>">Our Services </a>
               </li>
               <li>
-                <a class="page-scroll" href="#our-clients">Our Clients</a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#our-clients' :  base_url() . '#our-clients'; ?>">Our Clients</a>
               </li>
               <li>
-                <a class="page-scroll" href="#featured-events">Featured Events</a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#featured-events' :  base_url() . '#featured-events'; ?>">Featured Events</a>
               </li>
               <li>
-                <a class="page-scroll" href="#contact-us">Reach Us</a>
+                <a class="page-scroll" href="<?php echo $this->uri->segment(1) == '' ? '#contact-us' :  base_url() . '#contact-us'; ?>">Reach Us</a>
               </li>
               <li class="img-contact-us">
                 <img src="<?php echo base_url() . 'assets/image/contact-email.png'; ?>" alt="">

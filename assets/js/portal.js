@@ -3,6 +3,10 @@ var tbl_portal_loan_req_attmnt = [];
 var tbl_portal_benefit_req_attmnt = [];
 $(document).ready(function () {
   
+  $(document).on('submit', '#frm-submit-contact-us', function () {
+    
+  });
+
   $(document).on("click", "#btnViewProfile", function (e) {
     $.ajax({
       type: "POST",

@@ -51,10 +51,10 @@ class MY_Controller extends CI_Controller{
 		public function sendEmail($from, $email, $subject, $message, $title){
 			$config = Array(
 				'protocol' => 'smtp',
-				'smtp_host' => 'sg2plcpnl0159.prod.sin2.secureserver.net',
+				'smtp_host' => 'sg3plcpnl0006.prod.sin3.secureserver.net',
 				'smtp_port' => 465,
-				'smtp_user' => 'smtptech@techturf.com.ph', 
-				'smtp_pass' => 'ax3Lb}5v?n72', 
+				'smtp_user' => 'no-reply@fullcircle-asia.com', 
+				'smtp_pass' => 'v5deM1)VWr5k', 
 				'mailtype' => 'html',
 				'charset' => 'iso-8859-1',
 				// 'charset' => 'utf-8',

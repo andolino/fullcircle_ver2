@@ -36,6 +36,9 @@
             </div>
           </div>
         </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" onclick="window.location.href='<?php echo base_url() . '#featured-events'; ?>'" class="btn btn-baby-pink font-montserrat all-caps fs-12 pull-right xs-pull-left">Featured Events</button>
+        </div>
       </section>
       <!-- END NETWORK SOLUTIONS SECTION -->
       
@@ -43,14 +46,13 @@
 
       
       <!-- START GOOGLE MAP -->
-      <section class="container-fluid  no-padding no-overflow">
-        <!-- Map -->
+      <!-- <section class="container-fluid  no-padding no-overflow">
         <div class="row">
           <div class="col-sm-12">
             <div id="google-map" class="full-width demo-map gradient-overlay no-overflow"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- END GOOGLE MAP -->
     </div>
       

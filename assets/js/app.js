@@ -1,3 +1,27 @@
+$(document).ready(function () {
+  AOS.init({
+    disable: 'mobile'
+  });
+  $(document).on('submit', '#frm-submit-contact-us', function (e) {
+    e.preventDefault();
+    var frm = $(this).serialize();
+    $.ajax({
+      type: "POST",
+      url: "submit-contact",
+      data: frm,
+      dataType: "JSON",
+      success: function (res) {
+        Swal.fire(
+          'Thank you for contacting us.',
+          'We appreciate that you\'ve taken the time to write us. <br> We\'ll get back to you very soon.',
+          'success'
+        );
+      }
+    });
+  });
+});
+
+
 /* FUNCTIONS */
 // animate single element in
 function animateSingleIn(element, animation, focus = null) {

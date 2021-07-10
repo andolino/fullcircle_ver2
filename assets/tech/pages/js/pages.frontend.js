@@ -743,12 +743,19 @@
       $target.data('pg.portlet') && $target.portlet('maximize');
   })
 
-  $(window).on('load', function() {
+$(window).on('load', function() {
       $('[data-pages="portlet"]').each(function() {
           var $portlet = $(this)
           $portlet.portlet($portlet.data())
       })
-  })
+    //   setInterval(() => {
+    //     $('.tp-rightarrow').trigger('click');
+    //   }, 5000);
+    $('.rs-parallax-wrap').each(function(i, v){
+        $(v).addClass('slider-txt'+i);
+    });
+
+})
 
 })(window.jQuery);
 /* ============================================================

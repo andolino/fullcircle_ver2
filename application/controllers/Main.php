@@ -14,11 +14,12 @@ class Main extends MY_Controller {
 	}
 
   public function submit_contact(){
-    $from    		 = "smtptech@techturf.com.ph";
-    $to    	 		 = "sales@techturf.com.ph";//strtolower($this->input->post('email'));
+    $from    		 = "no-reply@fullcircle-asia.com";
+    $to    	 		 = "eventsatfullcircle@gmail.com";//strtolower($this->input->post('email'));
     $title    	 = "Contact Us";
-    $subject  	 = "Contact Us - ";
-    $message     = "Name: " . strtoupper($this->input->post('last-name')) . ', ' . strtoupper($this->input->post('name')) . "<br>";
+    $subject  	 = "Contact Us";
+    $message     = "Company: " . strtoupper($this->input->post('last-name')) . ', ' . "<br>";
+    $message     .= "Name: " . strtoupper($this->input->post('name')) . "<br>";
     $message     .= "Email: ".strtoupper($this->input->post('email'))." <br>";
     $message     .= "Message: ".strtoupper($this->input->post('message'))." <br><br>";
     $this->sendEmail($from, $to, $subject, $message, $title);
@@ -40,9 +41,9 @@ class Main extends MY_Controller {
       $files = scandir($dir);
       $d = [];
       foreach($files as $filename) {
-          if(!in_array($filename, $hideName)){
-            $d[] = $filename;
-          }
+        if(!in_array($filename, $hideName)){
+          $d[] = $filename;
+        }
       }
       $params['pics'] = $d;
       $params['events'] = $events;

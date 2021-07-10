@@ -236,7 +236,9 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="d-flex justify-content-center">
+                    <button type="button" onclick="window.location.href='<?php echo base_url() . '#featured-events'; ?>'" class="btn btn-baby-pink font-montserrat all-caps fs-12 pull-right xs-pull-left">Featured Events</button>
+                  </div>
 
 
                 </div>

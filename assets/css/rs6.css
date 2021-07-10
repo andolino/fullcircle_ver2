@@ -550,19 +550,6 @@ rs-column .rev_layer_in_column { vertical-align: top; }
 .rev_break_columns rs-column-wrap.rs-parallax-wrap  { display:block !important; width:100% !important; }
 
 
-.rev_break_columns rs-column-wrap.rs-parallax-wrap.rs-layer-hidden,
-.tp-forcenotvisible,
-.tp-hide-revslider,
-rs-row-wrap.rs-layer-hidden,
-rs-column-wrap.rs-layer-hidden,
-.rs-layer.rs-layer-hidden,
-.rs-layer-audio.rs-layer-hidden,
-.rs-parallax-wrap.rs-layer-hidden {	
-	visibility:hidden !important; 
-	display:none !important
-}
-
-
 
 
 /*********************************
