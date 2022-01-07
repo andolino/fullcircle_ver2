@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  AOS.init({
-    disable: 'mobile'
-  });
+  
   $(document).on('submit', '#frm-submit-contact-us', function (e) {
     e.preventDefault();
     var frm = $(this).serialize();
@@ -263,3 +261,7 @@ function formatDateOthFormat(date) {
 
   return [month, day, year].join('/');
 }
+
+AOS.init({
+  disable: window.innerWidth < 768,
+});

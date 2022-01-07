@@ -1,156 +1,6 @@
 
 
 
-<style>
-/* .cont-img-src-cover{
-    height: 100% !important;
-}
-.cont-img-src {
-    height: 100vh !important;
-}
-.cont-img-src img {
-    height: 100vh !important;
-}
-.cont-img-src div {
-    height: 100vh !important;
-}
-.cont-img-src-main{
-  height: 100vh !important;
-}
-.cont-img-src-parent{
-  height: 100vh !important;
-  max-width: 100% !important;
-} */
-.d-block.w-100 {
-  height: 100vh !important;
-  object-fit: cover;
-}
-.carousel-indicators li { visibility: hidden; }
-
-.slide-1-caption{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carousel-caption.d-md-block.slide-1-caption {
-  font-size: 75px;
-  font-weight: bold;
-  width: 37%;
-  margin: auto;
-}
-
-@media only screen and (max-width: 1400px) {
-  .carousel-caption.d-md-block.slide-1-caption {
-    font-size: 69px;
-    font-weight: bold;
-    width: 43%;
-    margin: auto;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .carousel-caption.d-md-block.slide-1-caption {
-    font-size: 67px !important;
-    font-weight: bold !important;
-    width: 75% !important;
-    margin: auto !important;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .carousel-caption.d-md-block.slide-1-caption {
-    font-size: 33px !important;
-    font-weight: bold !important;
-    width: 71% !important;
-    margin: auto !important;
-  }
-  .slide-1-caption-btn {
-    font-size: 15px !important;
-    width: 72% !important;
-  }
-}
-
-
-
-
-.slide-2-caption{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carousel-caption.d-md-block.slide-2-caption {
-  font-size: 58px;
-  font-weight: bold;
-  width: 20%;
-  text-align: left;
-  color: #242424;
-  margin-left: 12%;
-  line-height: 1.1;
-}
-.slide-1-caption .line.page-scroll {
-  font-size: 20px;
-  margin: auto;
-  display: inherit;
-  width: 46%;
-  padding: 2px;
-  background: #45193a6e;
-  color: #f0f0f0;
-  padding: 15px;
-  border-radius: 7px;
-  font-weight: normal;
-  margin-top: 30px;
-}
-
-.slide-2-caption-btn {
-  font-size: 20px;
-  display: inherit;
-  background: #45193a6e;
-  color: #f0f0f0;
-  padding: 15px;
-  border-radius: 7px;
-  font-weight: normal;
-  text-align: center;
-}
-.vertical-center-btn-2 {
-  width: 15%;
-}
-
-@media only screen and (max-width: 1480px) {
-  .carousel-caption.d-md-block.slide-2-caption {
-    font-size: 58px;
-    font-weight: bold;
-    width: 23%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .carousel-caption.d-md-block.slide-2-caption {
-    font-size: 49px !important;
-    font-weight: bold !important;
-    width: 42% !important;
-  }
-  .vertical-center-btn-2 {
-    width: 29% !important;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .carousel-caption.d-md-block.slide-2-caption {
-    font-size: 43px !important;
-    font-weight: bold !important;
-    width: 63% !important;
-    margin-left: 0 !important;
-  }
-  .vertical-center-btn-2 {
-    width: 61% !important;
-  }
-  .slide-2-caption-btn {
-    font-size: 15px !important;
-    margin-left: 45px !important;
-  }
-}
-</style>
-
 <div class="page-wrappers">
 <div id="site-content" class="site-content">
   <div id="content-body" class="content-body">
@@ -163,89 +13,304 @@
               <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner">
                   <div class="wpb_wrapper">
-
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                      <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                      </ol>
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img class="d-block w-100" src="<?php echo base_url('assets/image/slider/photo1.jpg'); ?>" alt="First slide">
-                          <div class="carousel-caption d-md-block slide-1-caption">
-                            <span data-aos="fade-up-right">  Watch Your Event's <span style="color: #d483ec;">Success</span> unfold </span>
-                            <div class="row">
-                              <div class="col">
-                                <a class="button line page-scroll slide-1-caption-btn" href="#contact-us">Let's Make it Happen!</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img class="d-block w-100" src="<?php echo base_url('assets/image/slider/photo2.jpg'); ?>" alt="Second slide">
-                          <div class="carousel-caption d-md-block slide-2-caption">
-                            <span data-aos="fade-up-right">More than an Event.. It's an Experience </span>
-                          </div>
-                          <div class="row">
-                            <div class="col" style="position: absolute;bottom: 19%;">
-                              <div class="m-auto vertical-center-btn-2">
-                                <a class="button line page-scroll slide-2-caption-btn" href="#featured-events">Featured Events</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img class="d-block w-100" src="<?php echo base_url('assets/image/slider/photo3.jpg'); ?>" alt="Third slide">
-                          <div class="carousel-caption d-md-block slide-2-caption">
-                            <span style="color: #f0f0f0;" data-aos="fade-up-right">We Make it Happen!</span>
-                          </div>
-                          <div class="row">
-                            <div class="col" style="position: absolute;bottom: 19%;">
-                              <div class="m-auto vertical-center-btn-2">
-                                <a class="button line page-scroll slide-2-caption-btn" href="#div-our-services">Our Services</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                    
-                    <!-- <script type="text/javascript">jssor_1_slider_init();</script> -->
-
-                    <!-- Watch Your -->
-                    <!-- Event's Success-->
-                    <!-- Unfold -->
-                    <!-- <?php //echo base_url('assets/image/slider/photo1.jpg'); ?> -->
-                    <!-- <a class="button line page-scroll" href="#contact-us">Let's Make it Happen!</a>  -->
-
-                    <!-- More than -->
-                    <!-- an Event, -->
-                    <!-- It's an -->
-                    <!-- Experience. -->
-                    <!-- <?php //echo base_url('assets/image/slider/photo2.jpg'); ?> -->
-                    <!-- <a class="button line page-scroll" href="#featured-events">Featured Events</a> -->
-
-
-                    <!-- We Make it -->
-                    <!-- Happen! -->
-                    <!-- <?php //echo base_url('assets/image/slider/photo3.jpg'); ?> -->
-                    <!-- <a class="button line page-scroll" href="#div-our-services">Our Services</a>  -->
-
-
-                      <!-- END REVOLUTION SLIDER -->
-                  </div>
+                <!-- START Mainsite REVOLUTION SLIDER 6.1.1 --><p class="rs-p-wp-fix"></p>
+                    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                      <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.1">
+                        <rs-slides class="first-slider-module">
+                          <rs-slide data-key="rs-3" data-title="Slide" data-thumb="" data-anim="ei:d,d;eo:d,d;s:d,d;r:0,0;t:fadetorightfadefromleft,fadefromleft;sl:d,d;" data-sloop="s:2500;e:4500;">
+                            <img src="<?php echo base_url('assets/image/slider/photo1.jpg'); ?>" title="Slider 1 image-min" width="5760" height="3840" data-parallax="off" class="rev-slidebg" data-no-retina>
+                            <rs-layer
+                                id="slider-1-slide-3-layer-20" 
+                                data-type="text"
+                                data-color="#ffffff"
+                                data-xy="x:447px;y:c;yo:0px;"
+                                data-text="s:80;l:128;fw:700;a:center;"
+                                data-frame_0="y:-100%;o:1;tp:600;"
+                                data-frame_0_mask="u:t;"
+                                data-frame_1="tp:600;sp:1500;sR:10;"
+                                data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                                style="z-index:99999999999999;text-transform:lowercase;"
+                              ><div class="slider-sub watch-your">Watch Your</div> 
+                            </rs-layer>
+                            <rs-layer
+                              id="slider-1-slide-3-layer-3" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:240px;y:c;yo:96px;"
+                              data-text="s:112;l:128;fw:700;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:10;text-transform:lowercase;"
+                            ><div class="slider-title events-success">Event's <span class="" style="color: #ef9bbd;">Success</span></div> 
+                            </rs-layer>
+                            <rs-layer
+                              id="slider-1-slide-3-layer-5" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:487px;y:c;yo:200px;"
+                              data-text="s:112;l:128;fw:700;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:11;text-transform:lowercase;"
+                            ><div class="slider-title unfold">Unfold</div> 
+                            </rs-layer>
+                            <rs-layer
+                              id="slider-1-slide-3-layer-7" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:550px;y:c;yo:300px;"
+                              data-text="l:22;a:inherit;"
+                              data-vbility="t,t,f,f"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:12;"
+                            ><a class="button line page-scroll" href="#contact-us">Let's Make it Happen!</a> 
+                            </rs-layer>
+                          </rs-slide>
+                          <rs-slide data-key="rs-2" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+                            <img src="<?php echo base_url('assets/image/slider/photo2.jpg'); ?>" title="slider-2" width="2600" height="1405" data-parallax="off" class="rev-slidebg" data-no-retina>
+                            <!---->
+                            <!----><!--
+                            -->
+                            <rs-layer
+                              id="slider-1-slide-2-layer-22" 
+                              data-type="text"
+                              data-color="rgb(57, 51, 51)"
+                              data-xy="x:c;xo:-191px;y:c;yo:-133px;"
+                              data-text="s:50;l:128;fw:700;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:9;"
+                            ><div class="slider-title">More than</div> 
+                            </rs-layer>
+                            <rs-layer
+                              id="slider-1-slide-2-layer-3" 
+                              data-type="text"
+                              data-color="rgb(57, 51, 51)"
+                              data-xy="x:c;xo:-200px;y:c;yo:-80px;"
+                              data-text="s:50;l:98;fw:700;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:12;"
+                            ><div class="slider-title">an Event,</div> 
+                            </rs-layer><!--
+                            --><rs-layer
+                              id="slider-1-slide-2-layer-5" 
+                              data-type="text"
+                              data-color="rgb(57, 51, 51)"
+                              data-xy="x:c;xo:-235px;y:c;yo:-20px;"
+                              data-text="s:50;l:128;fw:700;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:13;"
+                            ><div class="slider-title">It's an</div> 
+                            </rs-layer><!--
+                            --><rs-layer
+                              id="slider-1-slide-2-layer-21" 
+                              data-type="text"
+                              data-color="rgb(57, 51, 51)"
+                              data-xy="x:c;xo:-176px;y:c;yo:37px;"
+                              data-text="s:50;l:128;a:center;fw:700;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:8;font-family:Roboto;"
+                            ><div class="slider-sub">Experience.</div> 
+                            </rs-layer><!---->
+                            <!---->		
+                            <rs-layer
+                                id="slider-1-slide-2-layer-2" 
+                                data-type="text"
+                                data-color="#ffffff"
+                                data-xy="x:c;xo:-14px;y:c;yo:300px;"
+                                data-text="l:22;a:inherit;"
+                                data-vbility="t,t,f,f"
+                                data-frame_0="y:-100%;o:1;tp:600;"
+                                data-frame_0_mask="u:t;"
+                                data-frame_1="tp:600;sp:1500;sR:10;"
+                                data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                                style="z-index:11;"
+                              ><a class="button line page-scroll" href="#featured-events">Featured Events</a> 
+                            </rs-layer>				      
+                          </rs-slide>
+                          <rs-slide data-key="rs-1" class="we-make-it-happen" data-title="Slide" data-thumb="" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+                            <img src="<?php echo base_url('assets/image/slider/photo3.jpg'); ?>" title="Slider 3 image-min" width="4928" height="3264" data-parallax="off" class="rev-slidebg" data-no-retina>
+                <!--
+                            -->
+                            <!-- <rs-layer
+                              id="slider-1-slide-1-layer-1" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:r;xo:57px;y:c;yo:104px;"
+                              data-text="s:60;l:80;a:center;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:9;font-family:Ubuntu;"
+                            ><div class="slider-sub">your brand</div> 
+                            </rs-layer> -->
+                            <!---->
+                            <!---->
+                            <rs-layer
+                              id="slider-1-slide-1-layer-3" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:r;xo:660px;y:c;yo:20px;"
+                              data-text="s:112;l:128;fw:600;a:inherit;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:999;font-family:Ubuntu;"
+                            ><div class="slider-title">We Make it</div> 
+                            </rs-layer>
+                            <!---->
+                            <rs-layer
+                                id="slider-1-slide-1-layer-5" 
+                                data-type="text"
+                                data-color="#ffffff"
+                                data-xy="x:r;xo:810px;y:c;yo:120px;"
+                                data-text="s:112;l:128;fw:600;a:inherit;"
+                                data-frame_0="y:-100%;o:1;tp:600;"
+                                data-frame_0_mask="u:t;"
+                                data-frame_1="tp:600;sp:1500;sR:10;"
+                                data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                                style="z-index:12;font-family:Ubuntu;"
+                              ><div class="slider-title">Happen!</div> 
+                            </rs-layer>
+                            <rs-layer
+                                id="slider-1-slide-1-layer-6" 
+                                data-type="text"
+                                data-color="#ffffff"
+                                data-xy="x:r;xo:670px;y:c;yo:80px;"
+                                data-text="s:112;l:128;fw:600;a:inherit;"
+                                data-frame_0="y:-50%;o:1;tp:600;"
+                                data-frame_0_mask="u:t;"
+                                data-frame_1="tp:600;sp:1500;sR:10;"
+                                data-frame_1_mask="u:t;"
+                                data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                                style="z-index:12;"
+                              >
+                            </rs-layer>
+                            <!---->
+                            <rs-layer
+                              id="slider-1-slide-1-layer-2" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:r;xo:670px;y:c;yo:276px;"
+                              data-text="l:22;fw:700;a:inherit;"
+                              data-vbility="t,t,f,f"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:10;font-family:Ubuntu;"
+                            ><a class="button line page-scroll" href="#div-our-services">Our Services</a> 
+                            </rs-layer>
+                            <!-- <rs-layer
+                              id="slider-1-slide-1-layer-23" 
+                              data-type="text"
+                              data-color="#ffffff"
+                              data-xy="x:r;xo:50px;y:c;yo:-150px;"
+                              data-text="s:60;l:80;a:center;"
+                              data-frame_0="y:-100%;o:1;tp:600;"
+                              data-frame_0_mask="u:t;"
+                              data-frame_1="tp:600;sp:1500;sR:10;"
+                              data-frame_1_mask="u:t;"
+                              data-frame_999="o:0;tp:600;st:w;sR:7490;"
+                              style="z-index:8;font-family:Ubuntu;"
+                            ><div class="slider-sub">have your audience</div> 
+                            </rs-layer> -->
+                            <!---->						
+                          </rs-slide>
+                        </rs-slides>
+                        <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+                      </rs-module>
+                      <script type="text/javascript">
+                        setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[620],gw:[1280],gh:[620],layout:'fullwidth',mh:"0"});
+                        var	revapi1,
+                          tpj;
+                        jQuery(function() {
+                          tpj = jQuery;
+                          if(tpj("#rev_slider_1_1").revolution == undefined){
+                            revslider_showDoubleJqueryError("#rev_slider_1_1");
+                          } else {
+                            revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                              // jsFileLocation:"//www.eventsatwork.com/wp-content/plugins/revslider/public/assets/js/",
+                              sliderLayout:"fullwidth",
+                              duration:"254000ms",
+                              visibilityLevels:"1240,1024,778,480",
+                              gridwidth:1280,
+                              gridheight:620,
+                              minHeight:"",
+                              spinner:"spinner0",
+                              editorheight:"620,768,960,720",
+                              responsiveLevels:"1240,1024,778,480",
+                              disableProgressBar:"on",
+                              navigation: {
+                                onHoverStop:false,
+                                touch: {
+                                  touchenabled:true
+                                },
+                                arrows: {
+                                  enable:true,
+                                  style:"hesperiden",
+                                  hide_onleave:true,
+                                  left: {
+                                    h_offset:0
+                                  },
+                                  right: {
+                                    h_offset:0
+                                  }
+                                }
+                              },
+                              parallax: {
+                                levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+                                type:"mouse"
+                              },
+                              fallbacks: {
+                                allowHTML5AutoPlayOnAndroid:true
+                              },
+                            });
+                          }
+                          
+                        });
+                      </script>
+                      
+                    </rs-module-wrap>
+                    <!-- END REVOLUTION SLIDER -->
                 </div>
               </div>
+                </div>
             </div>
+            <div class="vc_row-full-width vc_clearfix"></div>
             <!-- /.content -->
             </div>
           <!-- /.main-content-inner -->
@@ -392,7 +457,7 @@
                 <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
                   <div class="row mb-5">
                     <div class="col-lg-9 offset-lg-3 pl-0"></div>
-                    <div class="col-lg-3 mt-3" data-aos="fade-up-right" data-aos-mirror="true">
+                    <div class="col-lg-3 mt-3" data-aos="fade-up-right">
                       <img src="<?php echo base_url('assets/image/our_team/anna_solis_crespo.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
                     <div class="col-lg-7 lbl-team-info-girl pt-0" data-aos="fade-up-left">
@@ -435,9 +500,10 @@
                       and savvy for Public Relations, relationship building and communications.</p>
                     </div>
                   </div>
-                  <!-- <div class="row mb-5">
+                  <div class="row mb-5">
                     <div class="col-lg-3 offset-lg-6 pr-0 text-right"></div>
                     <div class="col-lg-7 offset-lg-2 lbl-team-info-girl pt-0" data-aos="fade-up-left">
+                      <!-- <label for="" class="font-weight-bold" style="font-size:18px;">Maria Donneza Solis</label> <br> -->
                       <label for="" class="font-weight-bold text-light w-100 text-right" style="font-size:18px;">Maria Donneza Solis</label><br>
                       <label for="" class="block-title font-12 w-100 text-right">Project Manager</label>
                       <p>With almost 7 years experience in Events management, Donnie is gifted with impressive skills and extensive experience in Event Planning and Project Management both Local and International. </p>
@@ -446,9 +512,9 @@
                       achieve their goals.</p>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up-right">
-                      <img src="<?php //echo base_url('assets/image/our_team/maria_donneza_solis.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
+                      <img src="<?php echo base_url('assets/image/our_team/maria_donneza_solis.jpg'); ?>" style="object-fit: cover; height: 265px;" alt="" class="img-thumbnail">
                     </div>
-                  </div> -->
+                  </div>
                   <div class="row mb-5">
                     <div class="col-lg-9 offset-lg-3 pl-0"></div>
                     <div class="col-lg-3 text-center" data-aos="fade-up-right">
